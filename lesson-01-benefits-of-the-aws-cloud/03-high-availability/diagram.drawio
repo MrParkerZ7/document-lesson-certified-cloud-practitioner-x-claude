@@ -1,0 +1,200 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="high-availability" version="22.1.0" type="device">
+  <diagram name="High Availability Architecture" id="ha-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="High Availability Architecture on AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="450" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Users -->
+        <mxCell id="users" value="👥 Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from users to Route 53 -->
+        <mxCell id="arrow-users" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="100" as="sourcePoint" />
+            <mxPoint x="540" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Route 53 -->
+        <mxCell id="route53" value="🌐 Route 53 (DNS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#147EBA;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="470" y="145" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Route 53 to ELB -->
+        <mxCell id="arrow-dns" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="190" as="sourcePoint" />
+            <mxPoint x="540" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ELB -->
+        <mxCell id="elb" value="⚖️ Elastic Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="235" width="180" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Region Container -->
+        <mxCell id="region" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#232F3E;strokeWidth=2;dashed=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="840" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="region-label" value="AWS Region" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="130" y="305" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows from ELB to AZs -->
+        <mxCell id="arrow-elb-1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="280" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-elb-2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-elb-3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+            <mxPoint x="780" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- AZ 1 -->
+        <mxCell id="az1" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="az1-label" value="Availability Zone A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="195" y="345" width="130" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- EC2 in AZ1 -->
+        <mxCell id="ec2-1" value="🖥️ EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="185" y="380" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-1b" value="🖥️ EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="185" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- RDS Primary in AZ1 -->
+        <mxCell id="rds-1" value="🗄️ RDS Primary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3B48CC;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="185" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- S3 indicator -->
+        <mxCell id="s3-1" value="📦 S3 Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3F8624;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="185" y="560" width="150" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- AZ 2 -->
+        <mxCell id="az2" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="az2-label" value="Availability Zone B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="475" y="345" width="130" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- EC2 in AZ2 -->
+        <mxCell id="ec2-2" value="🖥️ EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="465" y="380" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-2b" value="🖥️ EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="465" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- RDS Standby in AZ2 -->
+        <mxCell id="rds-2" value="🗄️ RDS Standby" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3B48CC;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="465" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- S3 indicator -->
+        <mxCell id="s3-2" value="📦 S3 Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3F8624;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="465" y="560" width="150" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- AZ 3 -->
+        <mxCell id="az3" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="340" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="az3-label" value="Availability Zone C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="755" y="345" width="130" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- EC2 in AZ3 -->
+        <mxCell id="ec2-3" value="🖥️ EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="745" y="380" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-3b" value="🖥️ EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="745" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Read Replica in AZ3 -->
+        <mxCell id="rds-3" value="🗄️ RDS Read Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3B48CC;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="745" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- S3 indicator -->
+        <mxCell id="s3-3" value="📦 S3 Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3F8624;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="745" y="560" width="150" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- RDS Sync arrows -->
+        <mxCell id="rds-sync-1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#3B48CC;dashed=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="520" as="sourcePoint" />
+            <mxPoint x="460" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sync-label" value="Sync Replication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#3B48CC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="525" width="80" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rds-sync-2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#3B48CC;dashed=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="520" as="sourcePoint" />
+            <mxPoint x="740" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="async-label" value="Async Replication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#3B48CC;" vertex="1" parent="1">
+          <mxGeometry x="640" y="525" width="80" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-box" value="" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="840" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="High Availability Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="430" y="685" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="key-1" value="✓ Deploy across multiple AZs (minimum 2)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="140" y="715" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="key-2" value="✓ Use ELB for traffic distribution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="140" y="735" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="key-3" value="✓ Enable RDS Multi-AZ for databases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="140" y="755" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="key-4" value="✓ Use Auto Scaling for compute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="715" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="key-5" value="✓ S3 automatically stores across 3+ AZs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="735" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="key-6" value="✓ Use Route 53 health checks for DNS failover" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="755" width="280" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

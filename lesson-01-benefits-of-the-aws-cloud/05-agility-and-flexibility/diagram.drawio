@@ -1,0 +1,246 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="agility" version="22.1.0" type="device">
+  <diagram name="Agility and Flexibility" id="agility-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Cloud Agility and Flexibility" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="370" y="20" width="350" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Traditional vs AWS Timeline -->
+        <mxCell id="timeline-title" value="Speed to Market Comparison" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Traditional Timeline -->
+        <mxCell id="trad-box" value="" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="trad-label" value="Traditional IT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="130" y="115" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="trad-idea" value="💡&#xa;Idea" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="140" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="trad-arrow-1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="170" as="sourcePoint" />
+            <mxPoint x="225" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trad-proc" value="📋&#xa;Procurement&#xa;4-8 weeks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;fontColor=#FFFFFF;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="trad-arrow-2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="170" as="sourcePoint" />
+            <mxPoint x="335" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trad-setup" value="🔧&#xa;Setup&#xa;2-4 weeks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;fontColor=#FFFFFF;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="trad-arrow-3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="170" as="sourcePoint" />
+            <mxPoint x="445" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trad-launch" value="🚀&#xa;Launch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="trad-time" value="Total: 2-4 months ⏱️" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="115" width="130" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Timeline -->
+        <mxCell id="aws-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="110" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-label" value="AWS Cloud" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="570" y="115" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-idea" value="💡&#xa;Idea" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-arrow-1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="170" as="sourcePoint" />
+            <mxPoint x="720" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aws-deploy" value="⚡&#xa;Deploy&#xa;Minutes!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="660" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-launch" value="🚀&#xa;Launch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3F8624;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="730" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-iterate" value="🔄&#xa;Iterate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3F8624;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="790" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-time" value="Total: Hours! ⚡" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#3F8624;" vertex="1" parent="1">
+          <mxGeometry x="730" y="115" width="120" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Agility Benefits -->
+        <mxCell id="agility-title" value="Agility Benefits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agility-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="280" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agility-1" value="⚡ Speed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="agility-1-desc" value="Deploy in minutes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agility-2" value="🧪 Experiment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="140" y="345" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="agility-2-desc" value="Low cost of failure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="345" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agility-3" value="💡 Innovate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="agility-3-desc" value="Focus on business" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agility-4" value="🔄 Iterate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="140" y="435" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="agility-4-desc" value="Rapid changes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="435" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Flexibility Benefits -->
+        <mxCell id="flex-title" value="Flexibility Benefits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="170" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flex-box" value="" style="whiteSpace=wrap;html=1;fillColor=#147EBA;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="280" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flex-1" value="🛠️ 200+ Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="flex-1-desc" value="Choose best fit" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flex-2" value="💳 Pay-as-you-go" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="345" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="flex-2-desc" value="No commitments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="345" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flex-3" value="🔓 No Lock-in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="flex-3-desc" value="Switch anytime" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="390" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flex-4" value="🌍 Global Deploy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="435" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="flex-4-desc" value="30+ regions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="435" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Architecture Evolution -->
+        <mxCell id="arch-title" value="Architecture Flexibility - Evolution Made Easy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="350" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Monolithic -->
+        <mxCell id="mono-box" value="" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="550" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mono-label" value="Stage 1: Monolithic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="555" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mono-app" value="🏢&#xa;Single Application&#xa;on EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="155" y="585" width="110" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 1 -->
+        <mxCell id="arch-arrow-1" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#FF9900;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="615" as="sourcePoint" />
+            <mxPoint x="370" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Microservices -->
+        <mxCell id="micro-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#147EBA;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="micro-label" value="Stage 2: Microservices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="555" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="micro-1" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#147EBA;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="585" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="micro-2" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#147EBA;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="455" y="585" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="micro-3" value="Order" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#147EBA;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="585" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="micro-4" value="ECS / EKS Containers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="635" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 2 -->
+        <mxCell id="arch-arrow-2" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#FF9900;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="615" as="sourcePoint" />
+            <mxPoint x="650" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Serverless -->
+        <mxCell id="serverless-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="550" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="serverless-label" value="Stage 3: Serverless" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="700" y="555" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lambda-1" value="λ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="585" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lambda-2" value="λ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="585" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lambda-3" value="λ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="585" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="serverless-desc" value="AWS Lambda Functions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="635" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Key Message -->
+        <mxCell id="key-message" value="✨ AWS enables you to evolve architecture without rebuilding from scratch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#3F8624;" vertex="1" parent="1">
+          <mxGeometry x="280" y="700" width="500" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
