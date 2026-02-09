@@ -1,0 +1,271 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="licensing-strategies" version="22.1.0" type="device">
+  <diagram name="Licensing Strategies" id="licensing-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Licensing Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- BYOL Section -->
+        <mxCell id="byol-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="byol-title" value="BYOL (Bring Your Own License)" style="text;html=1;strokeColor=none;fillColor=#1565C0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- BYOL Content -->
+        <mxCell id="byol-license" value="Your Existing&#xa;License" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="byol-arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#FF9900;strokeColor=#FF9900;flowAnimation=1;shadow=1;width=10;endSize=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="155" as="sourcePoint" />
+            <mxPoint x="190" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byol-ec2" value="EC2&#xa;Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="byol-benefits" value="• Use existing investments&#xa;• Lower EC2 costs&#xa;• Requires tracking&#xa;• May need Dedicated Host" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="195" width="220" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- License Included Section -->
+        <mxCell id="li-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="li-title" value="License Included" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- License Included Content -->
+        <mxCell id="li-compute" value="Compute&#xa;Cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="li-plus" value="+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="140" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="li-license" value="License&#xa;Cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="li-equals" value="=" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="140" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="li-total" value="Total&#xa;$/hr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="130" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="li-benefits" value="• Simple management&#xa;• AWS handles licensing&#xa;• Pay-as-you-go&#xa;• Always compliant" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="195" width="220" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- License Manager Section -->
+        <mxCell id="lm-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lm-title" value="AWS License Manager" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="90" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- License Manager Content -->
+        <mxCell id="lm-hub" value="License&#xa;Manager" style="ellipse;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="125" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lm-ec2" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="135" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lm-rds" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="135" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lm-onprem" value="On-Prem" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="185" width="50" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lm-arrow1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#232F3E;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="150" as="sourcePoint" />
+            <mxPoint x="690" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lm-arrow2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#232F3E;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="150" as="sourcePoint" />
+            <mxPoint x="785" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lm-arrow3" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#232F3E;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="175" as="sourcePoint" />
+            <mxPoint x="725" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="lm-benefits" value="• Centralized tracking&#xa;• Compliance enforcement&#xa;• Cross-account support&#xa;• Audit reporting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="215" width="220" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- License Mobility Section -->
+        <mxCell id="mobility-box" value="" style="whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="80" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mobility-title" value="License Mobility" style="text;html=1;strokeColor=none;fillColor=#7B1FA2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="90" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- License Mobility Content -->
+        <mxCell id="mob-onprem" value="On-Premises&#xa;Licensed Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mob-arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#7B1FA2;strokeColor=#7B1FA2;flowAnimation=1;shadow=1;width=10;endSize=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="155" as="sourcePoint" />
+            <mxPoint x="1030" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mob-aws" value="AWS EC2&#xa;(Same License)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mob-benefits" value="• Microsoft SA program&#xa;• Move existing licenses&#xa;• SQL, Exchange, etc.&#xa;• No additional fees" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="195" width="220" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Dedicated Hosts Section -->
+        <mxCell id="dedicated-box" value="" style="whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="540" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dedicated-title" value="EC2 Dedicated Hosts for BYOL" style="text;html=1;strokeColor=none;fillColor=#455A64;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="520" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Standard EC2 -->
+        <mxCell id="std-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#DD3522;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="std-title" value="Standard EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="375" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="std-server" value="Shared Physical Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;strokeColor=#757575;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="400" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="std-vm1" value="Your VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="420" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="std-vm2" value="Other VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9E9E9E;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="420" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="std-vm3" value="Other VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9E9E9E;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="420" width="35" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Dedicated Host -->
+        <mxCell id="ded-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ded-title" value="Dedicated Host (Required for BYOL)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="375" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ded-server" value="Your Physical Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="400" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ded-vm1" value="Your VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="420" width="55" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ded-vm2" value="Your VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="55" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ded-vm3" value="Your VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="420" width="55" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ded-vm4" value="Your VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="40" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Flow -->
+        <mxCell id="decision-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="540" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-title" value="Licensing Decision Flow" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="330" width="520" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Flow Nodes -->
+        <mxCell id="dec-start" value="Existing&#xa;Licenses?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="370" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-transfer" value="Transferable?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="370" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-cheaper" value="BYOL&#xa;Cheaper?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="370" width="70" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="result-li" value="License&#xa;Included" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="455" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="result-li2" value="License&#xa;Included" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="455" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="result-byol" value="Use&#xa;BYOL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="370" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="result-li3" value="License&#xa;Included" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="455" width="70" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Arrows -->
+        <mxCell id="dec-arr1" value="No" style="endArrow=classic;html=1;strokeColor=#DD3522;fontColor=#DD3522;fontSize=9;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="430" as="sourcePoint" />
+            <mxPoint x="665" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-arr2" value="Yes" style="endArrow=classic;html=1;strokeColor=#1E8900;fontColor=#1E8900;fontSize=9;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="400" as="sourcePoint" />
+            <mxPoint x="780" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-arr3" value="No" style="endArrow=classic;html=1;strokeColor=#DD3522;fontColor=#DD3522;fontSize=9;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="815" y="430" as="sourcePoint" />
+            <mxPoint x="815" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-arr4" value="Yes" style="endArrow=classic;html=1;strokeColor=#1E8900;fontColor=#1E8900;fontSize=9;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="400" as="sourcePoint" />
+            <mxPoint x="930" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-arr5" value="Yes" style="endArrow=classic;html=1;strokeColor=#1E8900;fontColor=#1E8900;fontSize=9;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="387" as="sourcePoint" />
+            <mxPoint x="1030" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-arr6" value="No" style="endArrow=classic;html=1;strokeColor=#DD3522;fontColor=#DD3522;fontSize=9;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="965" y="430" as="sourcePoint" />
+            <mxPoint x="965" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Exam Tip -->
+        <mxCell id="tip-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="515" width="1100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tip-text" value="Exam Tip: BYOL = use existing licenses | License Included = AWS bundles license in price | License Manager = centralized tracking | Dedicated Hosts = required for socket/core-based BYOL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="525" width="1080" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

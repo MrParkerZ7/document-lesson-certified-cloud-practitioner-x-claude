@@ -1,0 +1,288 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="economies-of-scale" version="22.1.0" type="device">
+  <diagram name="Economies of Scale" id="economies-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Economies of Scale" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Concept Section -->
+        <mxCell id="concept-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="concept-title" value="Economies of Scale Concept" style="text;html=1;strokeColor=none;fillColor=#1565C0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="380" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Curve Graph -->
+        <mxCell id="graph-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="125" width="360" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Y Axis -->
+        <mxCell id="y-axis" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="245" as="sourcePoint" />
+            <mxPoint x="90" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-label" value="Cost per Unit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="135" width="60" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- X Axis -->
+        <mxCell id="x-axis" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="245" as="sourcePoint" />
+            <mxPoint x="400" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-label" value="Scale" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="248" width="40" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- Curve -->
+        <mxCell id="curve" value="" style="curved=1;endArrow=none;html=1;strokeWidth=3;strokeColor=#FF9900;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="160" as="sourcePoint" />
+            <mxPoint x="380" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="185" />
+              <mxPoint x="200" y="205" />
+              <mxPoint x="270" y="220" />
+              <mxPoint x="330" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Scale Labels -->
+        <mxCell id="small-label" value="Small" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="large-label" value="Large (AWS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#FF9900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="70" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- Bulk Purchasing Section -->
+        <mxCell id="bulk-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bulk-title" value="AWS Bulk Purchasing Power" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Individual Company -->
+        <mxCell id="ind-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#DD3522;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="125" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-title" value="Individual Company" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-servers" value="100 servers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- AWS -->
+        <mxCell id="aws-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="125" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-title" value="AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="130" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-servers" value="1,000,000+ servers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="150" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Bulk Items -->
+        <mxCell id="bulk-item1" value="Servers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="205" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bulk-item2" value="Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="205" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bulk-item3" value="Network" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="205" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bulk-item4" value="Power" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="205" width="65" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bulk-result" value="Massive negotiating power = Lower costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="245" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Price Reductions Section -->
+        <mxCell id="price-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="price-title" value="AWS Price Reductions" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="90" width="300" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 100+ times -->
+        <mxCell id="price-count" value="100+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="price-label" value="Price Reductions&#xa;Since Launch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Price Examples -->
+        <mxCell id="price-ex1" value="EC2: Up to 38% cuts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="price-ex2" value="S3: Up to 85% since 2006" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="price-ex3" value="Lambda: Up to 35%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="190" width="85" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="price-benefit" value="Savings passed to customers automatically!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="235" width="260" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Flywheel Section -->
+        <mxCell id="flywheel-box" value="" style="whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="flywheel-title" value="The Flywheel Effect (Virtuous Cycle)" style="text;html=1;strokeColor=none;fillColor=#7B1FA2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="480" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Flywheel Nodes -->
+        <mxCell id="fw-customers" value="More&#xa;Customers" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="350" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-scale" value="More&#xa;Scale" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-costs" value="Lower&#xa;Costs" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-prices" value="Lower&#xa;Prices" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="440" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-innovation" value="More&#xa;Innovation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="390" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Flywheel Arrows -->
+        <mxCell id="fw-arr1" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="375" as="sourcePoint" />
+            <mxPoint x="340" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fw-arr2" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="440" as="sourcePoint" />
+            <mxPoint x="375" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fw-arr3" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="465" as="sourcePoint" />
+            <mxPoint x="305" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fw-arr4" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="455" as="sourcePoint" />
+            <mxPoint x="200" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fw-arr5" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="390" as="sourcePoint" />
+            <mxPoint x="235" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Custom Silicon Section -->
+        <mxCell id="silicon-box" value="" style="whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="580" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="silicon-title" value="AWS Custom Silicon &amp; Innovation" style="text;html=1;strokeColor=none;fillColor=#455A64;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="560" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Graviton -->
+        <mxCell id="graviton-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="graviton-title" value="Graviton Processors" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="355" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="graviton-desc" value="Custom ARM-based processors&#xa;designed by AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="graviton-g2" value="Graviton2: 40% better&#xa;price/performance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="415" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="graviton-g3" value="Graviton3: 25% better&#xa;than Graviton2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="450" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Nitro -->
+        <mxCell id="nitro-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="350" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nitro-title" value="Nitro System" style="text;html=1;strokeColor=none;fillColor=#1565C0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="355" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nitro-desc" value="Custom hardware for&#xa;virtualization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nitro-feat1" value="Better security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="415" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nitro-feat2" value="Lower overhead" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="415" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nitro-feat3" value="Better performance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="450" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Why Cannot Match -->
+        <mxCell id="match-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#DD3522;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="350" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="match-title" value="Why Others Can't Match" style="text;html=1;strokeColor=none;fillColor=#DD3522;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="355" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="match-item1" value="- Buy 100s not millions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="380" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="match-item2" value="- No custom silicon R&amp;D" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="395" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="match-item3" value="- Local power rates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="410" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="match-item4" value="- Limited staff efficiency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="425" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="match-item5" value="- Build data centers? $30M+" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#DD3522;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="445" width="140" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="match-item6" value="AWS scale advantage wins!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#DD3522;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="460" width="140" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tip -->
+        <mxCell id="tip-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="515" width="1100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tip-text" value="Exam Tips: Economies of scale = bigger scale = lower costs | AWS passes savings through 100+ price reductions | Custom silicon (Graviton) improves price/performance&#xa;Bulk purchasing power for hardware, power, facilities | Flywheel effect creates virtuous cycle | Individual companies cannot match AWS scale advantages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="1080" height="45" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

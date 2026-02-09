@@ -1,0 +1,257 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="cost-optimization" version="22.1.0" type="device">
+  <diagram name="Cost Optimization Pillar" id="cost-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Cost Optimization Pillar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="350" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Icon -->
+        <mxCell id="cost-icon" value="💰" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="55" width="60" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- EC2 Pricing Section -->
+        <mxCell id="pricing-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pricing-title" value="EC2 Pricing Models - Savings vs Flexibility" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="300" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- On-Demand -->
+        <mxCell id="ondemand" value="On-Demand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ondemand-save" value="0% savings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="175" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ondemand-flex" value="Most Flexible" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="175" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Savings Plans -->
+        <mxCell id="savings" value="Savings Plans" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="215" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="savings-save" value="Up to 72%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="savings-commit" value="1-3 yr commit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Reserved -->
+        <mxCell id="reserved" value="Reserved Instances" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="reserved-save" value="Up to 72%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="265" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reserved-commit" value="Specific type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="265" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Spot -->
+        <mxCell id="spot" value="Spot Instances" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="305" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="spot-save" value="Up to 90%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="spot-flex" value="Can interrupt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow showing trade-off -->
+        <mxCell id="tradeoff-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="185" as="sourcePoint" />
+            <mxPoint x="460" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tradeoff-top" value="Flexible" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="175" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tradeoff-bottom" value="Savings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Management Tools Section -->
+        <mxCell id="tools-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1A73E8;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="AWS Cost Management Tools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1A73E8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="130" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Tools -->
+        <mxCell id="tool1" value="Cost Explorer&#xa;(Visualize)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="170" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tool2" value="AWS Budgets&#xa;(Alerts)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="170" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tool3" value="Cost &amp; Usage&#xa;Report" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="170" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tool4" value="Compute&#xa;Optimizer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tool5" value="Cost Anomaly&#xa;Detection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="230" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tool6" value="Pricing&#xa;Calculator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="230" width="110" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Trusted Advisor -->
+        <mxCell id="advisor-box" value="Trusted Advisor - Cost Optimization Checks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- S3 Storage Classes Section -->
+        <mxCell id="s3-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-title" value="S3 Storage Classes - Cost Tiers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- S3 Classes -->
+        <mxCell id="s3-standard" value="S3 Standard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-ia" value="Standard-IA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB74D;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-glacier" value="Glacier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC80;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-deep" value="Deep Archive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Cost arrows -->
+        <mxCell id="s3-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="405" as="sourcePoint" />
+            <mxPoint x="210" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="405" as="sourcePoint" />
+            <mxPoint x="320" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="405" as="sourcePoint" />
+            <mxPoint x="430" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Cost labels -->
+        <mxCell id="cost-high" value="$$$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF9900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="420" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-med" value="$$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF9900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="420" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-low" value="$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF9900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="420" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-lowest" value="$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF9900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="420" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Lifecycle Arrow -->
+        <mxCell id="lifecycle-arrow" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#1E8900;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="460" as="sourcePoint" />
+            <mxPoint x="480" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lifecycle-text" value="S3 Lifecycle Policy (Automatic Tiering)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Optimization Strategy Section -->
+        <mxCell id="strategy-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="340" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="strategy-title" value="Cost Optimization Strategy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="350" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Strategy Steps -->
+        <mxCell id="step1" value="1. Visibility&#xa;(Cost Explorer)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2. Right-Size&#xa;(Optimizer)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="390" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3. Commit&#xa;(RI/Savings)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="390" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4. Spot&#xa;(Flexible)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="390" width="80" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows between steps -->
+        <mxCell id="step-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="412" as="sourcePoint" />
+            <mxPoint x="715" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="412" as="sourcePoint" />
+            <mxPoint x="810" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="412" as="sourcePoint" />
+            <mxPoint x="905" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Clean Up -->
+        <mxCell id="cleanup" value="5. Clean Up: Delete unused resources, old snapshots, detached EBS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="365" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Design Principles -->
+        <mxCell id="principles-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#232F3E;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="920" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="principles-title" value="Design Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="525" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dp1" value="Cloud Financial Mgmt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dp2" value="Consumption Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dp3" value="Measure Efficiency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dp4" value="Use Managed Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dp5" value="Analyze &amp; Attribute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

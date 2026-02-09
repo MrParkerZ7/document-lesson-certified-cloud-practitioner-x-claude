@@ -1,0 +1,182 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="well-architected-intro" version="22.1.0" type="device">
+  <diagram name="Well-Architected Framework Introduction" id="wa-intro-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Well-Architected Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="450" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Framework Container -->
+        <mxCell id="framework-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="920" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="framework-title" value="Six Pillars of Well-Architected Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="380" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 1: Operational Excellence -->
+        <mxCell id="pillar1" value="Operational&#xa;Excellence" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-icon" value="⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 2: Security -->
+        <mxCell id="pillar2" value="Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-icon" value="🔒" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 3: Reliability -->
+        <mxCell id="pillar3" value="Reliability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-icon" value="🛡️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 4: Performance Efficiency -->
+        <mxCell id="pillar4" value="Performance&#xa;Efficiency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A73E8;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar4-icon" value="⚡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 5: Cost Optimization -->
+        <mxCell id="pillar5" value="Cost&#xa;Optimization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar5-icon" value="💰" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 6: Sustainability -->
+        <mxCell id="pillar6" value="Sustainability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar6-icon" value="🌱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow to Tool -->
+        <mxCell id="arrow1" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#FF9900;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow1-text" value="Review with" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="295" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Well-Architected Tool Box -->
+        <mxCell id="tool-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#232F3E;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tool-title" value="AWS Well-Architected Tool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="370" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Tool Steps -->
+        <mxCell id="step1" value="1. Define Workload" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2. Answer Questions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3. Review Findings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="420" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4. Improvement Plan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="100" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows between steps -->
+        <mxCell id="step-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="437" as="sourcePoint" />
+            <mxPoint x="440" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="437" as="sourcePoint" />
+            <mxPoint x="560" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="437" as="sourcePoint" />
+            <mxPoint x="680" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Benefits Section -->
+        <mxCell id="benefits-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="Benefits: Build faster | Lower risks | Learn best practices | Continuous improvement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="495" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Design Principles Box -->
+        <mxCell id="principles-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1A73E8;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="principles-title" value="General Design Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1A73E8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="principle1" value="• Stop guessing capacity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="principle2" value="• Test at production scale" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="principle3" value="• Automate experimentation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="principle4" value="• Evolutionary architectures" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="430" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="principle5" value="• Data-driven decisions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="460" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="principle6" value="• Improve through game days" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="490" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tip Box -->
+        <mxCell id="tip-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="300" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="tip-title" value="📝 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip1" value="• 6 Pillars total" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="340" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip2" value="• Tool is FREE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="370" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip3" value="• Focus on trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="400" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip4" value="• Continuous process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="430" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip5" value="• Partner Program exists" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="460" width="160" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

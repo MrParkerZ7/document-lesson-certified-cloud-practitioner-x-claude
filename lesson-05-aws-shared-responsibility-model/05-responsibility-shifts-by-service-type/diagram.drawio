@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.5" etag="responsibility-shifts" type="device">
+  <diagram name="Responsibility Shifts by Service Type" id="responsibility-shifts">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Responsibility Shifts by Service Type - IaaS vs PaaS vs SaaS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="800" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Spectrum Arrow -->
+        <mxCell id="spectrum-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="1500" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="customer-arrow" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="110" as="sourcePoint" />
+            <mxPoint x="1500" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="customer-label" value="CUSTOMER RESPONSIBILITY (More → Less)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="90" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-arrow" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#232F3E;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="140" as="sourcePoint" />
+            <mxPoint x="100" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="aws-label" value="AWS RESPONSIBILITY (Less ← More)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="140" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS Column -->
+        <mxCell id="iaas-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;fillOpacity=15;strokeColor=#FF9900;strokeWidth=3;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="180" width="480" height="850" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-header" value="IaaS - Infrastructure as a Service" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="190" width="380" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-example" value="Example: Amazon EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2;fontColor=#FF9900;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="220" width="380" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-note" value="Most Customer Responsibility" style="text;html=1;strokeColor=#FF9900;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="245" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS Stack -->
+        <mxCell id="iaas-data" value="Customer Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="290" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-app" value="Applications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="340" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-runtime" value="Runtime &amp; Middleware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="390" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-os" value="Operating System (Guest OS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-sg" value="Security Groups / Network Config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="490" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS Divider -->
+        <mxCell id="iaas-divider" value="" style="endArrow=none;html=1;strokeWidth=4;strokeColor=#DD3522;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="550" as="sourcePoint" />
+            <mxPoint x="500" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="iaas-divider-label" value="Responsibility Boundary" style="text;html=1;strokeColor=none;fillColor=#DD3522;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="535" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS AWS Stack -->
+        <mxCell id="iaas-hyper" value="Hypervisor (Nitro)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="570" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-host" value="Host Operating System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="620" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-hw" value="Physical Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="670" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-dc" value="Data Center &amp; Physical Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS Customer Tasks -->
+        <mxCell id="iaas-tasks" value="Customer Must:&#xa;• Patch Guest OS&#xa;• Install &amp; update applications&#xa;• Configure security groups&#xa;• Enable encryption&#xa;• Install antivirus&#xa;• Manage user access&#xa;• Monitor &amp; backup" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;strokeWidth=2;fontColor=#232F3E;fontSize=11;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="780" width="420" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS Column -->
+        <mxCell id="paas-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;fillOpacity=15;strokeColor=#1E8900;strokeWidth=3;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="180" width="480" height="850" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-header" value="PaaS - Platform as a Service" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="190" width="380" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-example" value="Examples: RDS, Lambda, Elastic Beanstalk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2;fontColor=#1E8900;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="220" width="380" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-note" value="Shared Responsibility" style="text;html=1;strokeColor=#1E8900;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1E8900;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="245" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS Stack -->
+        <mxCell id="paas-data" value="Customer Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="290" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-app" value="Application Code / Schema" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="340" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-iam" value="IAM / Security Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="390" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-encrypt" value="Encryption Settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="440" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS Divider -->
+        <mxCell id="paas-divider" value="" style="endArrow=none;html=1;strokeWidth=4;strokeColor=#DD3522;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="500" as="sourcePoint" />
+            <mxPoint x="1010" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="paas-divider-label" value="Responsibility Boundary" style="text;html=1;strokeColor=none;fillColor=#DD3522;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="485" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS AWS Stack -->
+        <mxCell id="paas-platform" value="Platform / Runtime / DB Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#1E8900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="520" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-os" value="Operating System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#1E8900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="570" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-scaling" value="Scaling &amp; High Availability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#1E8900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="620" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-hw" value="Physical Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#1E8900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="670" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-dc" value="Data Center &amp; Physical Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#1E8900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="720" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS Customer Tasks -->
+        <mxCell id="paas-tasks" value="Customer Must:&#xa;• Manage data/schema&#xa;• Configure security groups&#xa;• Set maintenance windows&#xa;• Enable encryption&#xa;• Manage database users&#xa;• Configure backups&#xa;&#xa;AWS Handles: Patching, HA, Scaling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;strokeWidth=2;fontColor=#232F3E;fontSize=11;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="780" width="420" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS Column -->
+        <mxCell id="saas-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;fillOpacity=15;strokeColor=#232F3E;strokeWidth=3;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="180" width="480" height="850" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-header" value="SaaS - Software as a Service" style="text;html=1;strokeColor=none;fillColor=#232F3E;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="190" width="380" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-example" value="Examples: S3, DynamoDB, SQS, SNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="220" width="380" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-note" value="Least Customer Responsibility" style="text;html=1;strokeColor=#232F3E;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="245" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS Stack -->
+        <mxCell id="saas-data" value="Customer Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="290" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-iam" value="IAM / Access Policies" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="340" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-encrypt" value="Encryption Settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="390" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS Divider -->
+        <mxCell id="saas-divider" value="" style="endArrow=none;html=1;strokeWidth=4;strokeColor=#DD3522;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="450" as="sourcePoint" />
+            <mxPoint x="1520" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="saas-divider-label" value="Responsibility Boundary" style="text;html=1;strokeColor=none;fillColor=#DD3522;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="435" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS AWS Stack -->
+        <mxCell id="saas-service" value="Service (S3, DynamoDB, etc.)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="470" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-platform" value="Platform / Software" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="520" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-os" value="Operating System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="570" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-scaling" value="Scaling, Durability &amp; Availability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="620" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-hw" value="Physical Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="670" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-dc" value="Data Center &amp; Physical Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="720" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS Customer Tasks -->
+        <mxCell id="saas-tasks" value="Customer Must:&#xa;• Manage data content&#xa;• Configure access policies&#xa;• Enable encryption&#xa;• Set lifecycle rules&#xa;• Block public access&#xa;&#xa;AWS Handles: EVERYTHING else&#xa;(Storage, durability, availability)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontSize=11;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="780" width="420" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="940" width="1500" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="LEGEND:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="950" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-customer" value="Customer Responsibility" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=1;fontColor=#FFFFFF;fontSize=11;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="950" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-aws" value="AWS Responsibility" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=1;fontColor=#FFFFFF;fontSize=11;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="950" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-divider" value="Responsibility Boundary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=#232F3E;strokeWidth=1;fontColor=#FFFFFF;fontSize=11;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="950" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tips -->
+        <mxCell id="exam-tips" value="EXAM TIPS: • EC2 (IaaS): Customer patches Guest OS • RDS (PaaS): AWS patches DB engine • S3 (SaaS): Customer only manages data &amp; access • Data is ALWAYS customer responsibility regardless of service type!" style="text;html=1;strokeColor=none;fillColor=#DD3522;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="990" width="1460" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Key Insight -->
+        <mxCell id="key-insight" value="KEY INSIGHT: More Managed = Less Customer Work, but Data Security is ALWAYS Your Responsibility" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="950" width="770" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

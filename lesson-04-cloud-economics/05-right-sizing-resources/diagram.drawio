@@ -1,0 +1,256 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="right-sizing" version="22.1.0" type="device">
+  <diagram name="Right-Sizing Resources" id="rightsizing-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Right-Sizing Resources in AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Right-Sizing Concept Section -->
+        <mxCell id="concept-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3F51B5;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="700" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="concept-title" value="Right-Sizing Concept" style="text;html=1;strokeColor=none;fillColor=#3F51B5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="680" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Over-Provisioned -->
+        <mxCell id="over-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#DD3522;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="over-title" value="Over-Provisioned" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="135" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="over-capacity" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;strokeColor=#757575;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="over-usage" value="Usage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="195" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="over-waste" value="WASTE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#DD3522;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="165" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="over-label" value="Wasting Money" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Right-Sized -->
+        <mxCell id="right-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="right-title" value="Right-Sized (Optimal)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="135" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="right-capacity" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;strokeColor=#757575;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="right-usage" value="Usage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="right-label" value="Optimal Cost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Under-Provisioned -->
+        <mxCell id="under-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="under-title" value="Under-Provisioned" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="135" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="under-capacity" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;strokeColor=#757575;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="under-usage" value="Usage Exceeds!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="under-label" value="Poor&#xa;Performance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="80" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Instance Types Section -->
+        <mxCell id="instance-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="instance-title" value="EC2 Instance Families" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="90" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Instance Type Boxes -->
+        <mxCell id="it-general" value="General Purpose&#xa;M, T series&#xa;Balanced" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="125" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="it-compute" value="Compute Opt.&#xa;C series&#xa;CPU intensive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="125" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="it-memory" value="Memory Opt.&#xa;R, X series&#xa;RAM intensive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="125" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="it-storage" value="Storage Opt.&#xa;I, D series&#xa;High I/O" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="180" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="it-accel" value="Accelerated&#xa;P, G series&#xa;ML/Graphics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="180" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="it-naming" value="Naming: m5.xlarge&#xa;family + gen + size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#757575;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="180" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Compute Optimizer Section -->
+        <mxCell id="optimizer-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="540" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="optimizer-title" value="AWS Compute Optimizer" style="text;html=1;strokeColor=none;fillColor=#1565C0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="520" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Input Sources -->
+        <mxCell id="input-cw" value="CloudWatch&#xa;Metrics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="input-usage" value="Usage&#xa;Patterns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="input-config" value="Resource&#xa;Config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows to Optimizer -->
+        <mxCell id="opt-arr1" value="" style="endArrow=classic;html=1;strokeColor=#1565C0;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="330" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="opt-arr2" value="" style="endArrow=classic;html=1;strokeColor=#1565C0;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="380" as="sourcePoint" />
+            <mxPoint x="190" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="opt-arr3" value="" style="endArrow=classic;html=1;strokeColor=#1565C0;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="430" as="sourcePoint" />
+            <mxPoint x="190" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Compute Optimizer Box -->
+        <mxCell id="co-center" value="Compute Optimizer&#xa;(Machine Learning)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="130" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow to Recommendations -->
+        <mxCell id="opt-arr4" value="" style="endArrow=classic;html=1;strokeColor=#FF9900;flowAnimation=1;strokeWidth=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="380" as="sourcePoint" />
+            <mxPoint x="360" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Recommendations -->
+        <mxCell id="rec-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="210" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-title" value="Recommendations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1565C0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="315" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-over" value="Over-provisioned: Scale DOWN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="340" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-under" value="Under-provisioned: Scale UP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="375" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-optimal" value="Optimized: No changes needed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="410" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Supported Resources -->
+        <mxCell id="resources-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="540" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-title" value="Supported Resources and Right-Sizing Process" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="270" width="520" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Supported Resources List -->
+        <mxCell id="res-ec2" value="EC2&#xa;Instances" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="310" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="res-asg" value="Auto&#xa;Scaling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="res-ebs" value="EBS&#xa;Volumes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="res-lambda" value="Lambda&#xa;Functions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="res-ecs" value="ECS&#xa;Fargate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="310" width="70" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Right-Sizing Process -->
+        <mxCell id="proc-monitor" value="1. Monitor&#xa;(CloudWatch)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="proc-analyze" value="2. Analyze&#xa;(Compute Opt)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="proc-resize" value="3. Resize&#xa;(Apply)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="proc-validate" value="4. Validate&#xa;(Verify)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Process Arrows -->
+        <mxCell id="proc-arr1" value="" style="endArrow=classic;html=1;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="405" as="sourcePoint" />
+            <mxPoint x="750" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="proc-arr2" value="" style="endArrow=classic;html=1;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="405" as="sourcePoint" />
+            <mxPoint x="870" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="proc-arr3" value="" style="endArrow=classic;html=1;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="405" as="sourcePoint" />
+            <mxPoint x="990" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="proc-arr4" value="" style="endArrow=classic;html=1;strokeColor=#1E8900;flowAnimation=1;curved=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="430" as="sourcePoint" />
+            <mxPoint x="670" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="460" />
+              <mxPoint x="850" y="460" />
+              <mxPoint x="650" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="proc-label" value="Continuous Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#1E8900;fontStyle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="445" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tip -->
+        <mxCell id="tip-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="495" width="1100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tip-text" value="Exam Tips: Right-sizing = matching resources to workload | Compute Optimizer = ML-based recommendations | Instance naming = family + generation + size (m5.xlarge)&#xa;Know instance families: General (M/T), Compute (C), Memory (R), Storage (I/D), Accelerated (P/G) | Right-size BEFORE buying Reserved Instances" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="1080" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

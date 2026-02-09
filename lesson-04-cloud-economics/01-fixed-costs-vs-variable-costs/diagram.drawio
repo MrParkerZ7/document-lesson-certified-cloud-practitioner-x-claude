@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="fixed-vs-variable" version="22.1.0" type="device">
+  <diagram name="Fixed vs Variable Costs" id="costs-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Fixed Costs vs Variable Costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Fixed Costs Section -->
+        <mxCell id="fixed-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#DD3522;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="450" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fixed-title" value="Traditional IT - Fixed Costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Fixed Cost Graph -->
+        <mxCell id="fixed-graph" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="280" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- Capacity line (fixed) -->
+        <mxCell id="capacity-line" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#DD3522;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="capacity-label" value="Purchased Capacity (Fixed Cost)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Usage wave -->
+        <mxCell id="usage-wave" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#1E8900;curved=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="200" />
+              <mxPoint x="200" y="250" />
+              <mxPoint x="240" y="180" />
+              <mxPoint x="280" y="230" />
+              <mxPoint x="320" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usage-label" value="Actual Usage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Waste indicator -->
+        <mxCell id="waste-area" value="WASTE" style="text;html=1;strokeColor=none;fillColor=#FFCDD2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="175" width="60" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Fixed cost examples -->
+        <mxCell id="fixed-examples" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#232F3E;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="130" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fixed-ex-title" value="Examples" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="135" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fixed-ex-list" value="• Servers&#xa;• Data centers&#xa;• Network gear&#xa;• Software&#xa;• IT staff" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="160" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Fixed cost problem -->
+        <mxCell id="fixed-problem" value="❌ Pay for capacity whether you use it or not!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="295" width="330" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Variable Costs Section -->
+        <mxCell id="variable-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#1E8900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="450" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="variable-title" value="AWS Cloud - Variable Costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Variable Cost Graph -->
+        <mxCell id="variable-graph" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="280" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- Auto-scaled capacity matches usage -->
+        <mxCell id="autoscale-wave" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#1E8900;curved=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="240" as="sourcePoint" />
+            <mxPoint x="840" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="200" />
+              <mxPoint x="680" y="250" />
+              <mxPoint x="720" y="180" />
+              <mxPoint x="760" y="230" />
+              <mxPoint x="800" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="autoscale-label" value="Auto-scaled = Usage = Cost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="150" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Variable cost examples -->
+        <mxCell id="variable-examples" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#232F3E;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="130" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="variable-ex-title" value="Examples" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="135" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="variable-ex-list" value="• EC2 hours&#xa;• S3 storage&#xa;• Data transfer&#xa;• Lambda calls&#xa;• API requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="160" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Variable cost benefit -->
+        <mxCell id="variable-benefit" value="✅ Pay only for what you actually use!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1E8900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="295" width="330" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow between sections -->
+        <mxCell id="transform-arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#FF9900;strokeColor=#FF9900;flowAnimation=1;shadow=1;width=15;endSize=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Benefits Section -->
+        <mxCell id="benefits-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="920" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="Benefits of Variable Cost Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Benefit boxes -->
+        <mxCell id="b1" value="💰 No Upfront&#xa;Investment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" value="📈 Scale with&#xa;Demand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" value="🛡️ Reduced&#xa;Risk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" value="💵 Improved&#xa;Cash Flow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" value="♻️ Minimal&#xa;Waste" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6" value="🎯 Right-size&#xa;Resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tip -->
+        <mxCell id="tip-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="525" width="920" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tip-text" value="📝 Exam Tip: AWS shifts IT from fixed costs (pay regardless of use) to variable costs (pay for what you use). Auto Scaling enables this model." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="532" width="880" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

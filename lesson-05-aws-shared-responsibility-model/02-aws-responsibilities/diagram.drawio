@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.5" etag="aws-responsibilities" type="device">
+  <diagram name="AWS Responsibilities" id="aws-responsibilities">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Responsibilities - Security OF the Cloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;fillOpacity=10;strokeColor=#232F3E;strokeWidth=3;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="1300" height="850" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 1: Managed Services -->
+        <mxCell id="layer1-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;fillOpacity=20;strokeColor=#1E8900;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="1240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="layer1-title" value="MANAGED SERVICES SECURITY" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="105" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rds-box" value="Amazon RDS&#xa;• Database Engine&#xa;• OS Patching&#xa;• Backups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lambda-box" value="AWS Lambda&#xa;• Runtime Environment&#xa;• Execution Security&#xa;• Scaling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="140" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dynamodb-box" value="DynamoDB&#xa;• Database Engine&#xa;• Replication&#xa;• Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="140" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s3-box" value="Amazon S3&#xa;• Storage Infrastructure&#xa;• Durability&#xa;• Availability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="140" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ecs-box" value="ECS/EKS&#xa;• Control Plane&#xa;• Orchestration&#xa;• Scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="140" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aurora-box" value="Aurora&#xa;• Database Engine&#xa;• Replication&#xa;• Auto-scaling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="140" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Layer 1 to Layer 2 -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="220" as="sourcePoint" />
+            <mxPoint x="700" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Layer 2: Software Infrastructure -->
+        <mxCell id="layer2-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;fillOpacity=20;strokeColor=#FF9900;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="250" width="1240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="layer2-title" value="SOFTWARE INFRASTRUCTURE" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="255" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="hypervisor-box" value="Nitro Hypervisor&#xa;• Minimal attack surface&#xa;• Instance isolation&#xa;• Hardware-based security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="290" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="hostos-box" value="Host Operating System&#xa;• Security hardening&#xa;• Regular patching&#xa;• Access restrictions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="290" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="netsoftware-box" value="Networking Software&#xa;• Virtual networking&#xa;• Traffic management&#xa;• Load balancing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="290" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="storsoftware-box" value="Storage Software&#xa;• EBS management&#xa;• S3 storage layer&#xa;• Data replication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="290" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Layer 2 to Layer 3 -->
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="370" as="sourcePoint" />
+            <mxPoint x="700" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Layer 3: Hardware Infrastructure -->
+        <mxCell id="layer3-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;fillOpacity=30;strokeColor=#232F3E;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="1240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="layer3-title" value="HARDWARE INFRASTRUCTURE" style="text;html=1;strokeColor=none;fillColor=#232F3E;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="405" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="servers-box" value="Physical Servers&#xa;• CPUs (Intel, AMD, Graviton)&#xa;• Memory (RAM)&#xa;• Local storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="440" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="storage-box" value="Storage Hardware&#xa;• HDDs and SSDs&#xa;• Storage arrays&#xa;• NVMe devices" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="440" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="network-box" value="Network Equipment&#xa;• Routers and switches&#xa;• Fiber optic cables&#xa;• Load balancers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="440" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nitro-box" value="Nitro System&#xa;• Security chips&#xa;• Nitro cards&#xa;• Hardware encryption" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FF9900;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="440" width="280" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Layer 3 to Layer 4 -->
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="520" as="sourcePoint" />
+            <mxPoint x="700" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Layer 4: Global Infrastructure -->
+        <mxCell id="layer4-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;fillOpacity=30;strokeColor=#1E8900;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="550" width="1240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="layer4-title" value="GLOBAL INFRASTRUCTURE" style="text;html=1;strokeColor=none;fillColor=#1E8900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="555" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="regions-box" value="Regions (30+)&#xa;Geographic locations with&#xa;multiple data centers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="590" width="350" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="azs-box" value="Availability Zones (100+)&#xa;Isolated data centers&#xa;within regions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="525" y="590" width="350" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge-box" value="Edge Locations (400+)&#xa;CloudFront and Route 53&#xa;endpoints globally" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="930" y="590" width="350" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Layer 4 to Layer 5 -->
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="670" as="sourcePoint" />
+            <mxPoint x="700" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Layer 5: Physical Security -->
+        <mxCell id="layer5-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;fillOpacity=30;strokeColor=#DD3522;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="700" width="1240" height="130" as="geometry" />
+        </mxCell>
+
+        <mxCell id="layer5-title" value="PHYSICAL SECURITY (Foundation)" style="text;html=1;strokeColor=none;fillColor=#DD3522;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="705" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="access-box" value="Access Control&#xa;• Biometric scanning&#xa;• Multi-factor auth&#xa;• Mantraps&#xa;• 24/7 Guards" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="740" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="surveillance-box" value="Surveillance&#xa;• CCTV cameras&#xa;• Motion detection&#xa;• Alarm systems&#xa;• Intrusion detection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="740" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="environmental-box" value="Environmental&#xa;• Power (UPS, generators)&#xa;• Cooling (HVAC)&#xa;• Fire suppression&#xa;• Flood protection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="740" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="facility-box" value="Facility Security&#xa;• Perimeter fencing&#xa;• Vehicle barriers&#xa;• Secure locations&#xa;• Building design" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="740" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="personnel-box" value="Personnel&#xa;• Background checks&#xa;• Access logging&#xa;• Escort requirements&#xa;• Security training" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="740" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ddos-box" value="DDoS&#xa;Protection&#xa;AWS Shield" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="740" width="100" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Artifact Box -->
+        <mxCell id="artifact-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="850" width="1240" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="artifact-icon" value="AWS Artifact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#232F3E;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="860" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="artifact-text" value="Access compliance reports and certifications: SOC 1/2/3, ISO 27001, PCI DSS, HIPAA BAA, FedRAMP, and more. Download on-demand from AWS Console." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="860" width="700" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="exam-tip" value="EXAM TIP: AWS Artifact provides compliance documentation!" style="text;html=1;strokeColor=none;fillColor=#DD3522;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="865" width="300" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Key -->
+        <mxCell id="key-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#232F3E;strokeWidth=1;dashed=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="90" width="120" height="130" as="geometry" />
+        </mxCell>
+
+        <mxCell id="key-title" value="LEGEND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="95" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="key-managed" value="Managed Svc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="key-software" value="Software" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="145" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="key-hardware" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="170" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="key-physical" value="Physical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="195" width="100" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
