@@ -16,7 +16,7 @@
         </mxCell>
 
         <!-- Regions -->
-        <mxCell id="regions-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#232F3E;rounded=0;" vertex="1" parent="1">
+        <mxCell id="regions-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#232F3E;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="120" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="regions-title" value="🌍 REGIONS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -27,7 +27,7 @@
         </mxCell>
 
         <!-- Arrow 1 -->
-        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="170" as="sourcePoint" />
             <mxPoint x="380" y="170" as="targetPoint" />
@@ -38,7 +38,7 @@
         </mxCell>
 
         <!-- Availability Zones -->
-        <mxCell id="az-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;rounded=0;" vertex="1" parent="1">
+        <mxCell id="az-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="120" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="az-title" value="🏢 AVAILABILITY ZONES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -49,7 +49,7 @@
         </mxCell>
 
         <!-- Arrow 2 -->
-        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="170" as="sourcePoint" />
             <mxPoint x="650" y="170" as="targetPoint" />
@@ -60,7 +60,7 @@
         </mxCell>
 
         <!-- Edge Locations -->
-        <mxCell id="edge-box" value="" style="whiteSpace=wrap;html=1;fillColor=#147EBA;strokeColor=#147EBA;rounded=0;" vertex="1" parent="1">
+        <mxCell id="edge-box" value="" style="whiteSpace=wrap;html=1;fillColor=#147EBA;strokeColor=#147EBA;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="120" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="edge-title" value="📡 EDGE LOCATIONS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -76,7 +76,7 @@
         </mxCell>
 
         <!-- Region Container -->
-        <mxCell id="region-container" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#232F3E;strokeWidth=3;dashed=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="region-container" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#232F3E;strokeWidth=3;dashed=1;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="300" width="640" height="220" as="geometry" />
         </mxCell>
         <mxCell id="region-label" value="Region: us-east-1 (N. Virginia)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
@@ -84,64 +84,64 @@
         </mxCell>
 
         <!-- AZ 1 -->
-        <mxCell id="az1-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+        <mxCell id="az1-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="340" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="az1-label" value="AZ: us-east-1a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
           <mxGeometry x="210" y="345" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dc1-1" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc1-1" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="375" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dc1-2" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc1-2" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="420" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dc1-3" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc1-3" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="465" width="120" height="30" as="geometry" />
         </mxCell>
 
         <!-- AZ 2 -->
-        <mxCell id="az2-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+        <mxCell id="az2-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="340" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="az2-label" value="AZ: us-east-1b" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
           <mxGeometry x="420" y="345" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dc2-1" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc2-1" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="375" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dc2-2" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc2-2" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="420" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dc2-3" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc2-3" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="465" width="120" height="30" as="geometry" />
         </mxCell>
 
         <!-- AZ 3 -->
-        <mxCell id="az3-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+        <mxCell id="az3-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="340" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="az3-label" value="AZ: us-east-1c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
           <mxGeometry x="630" y="345" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dc3-1" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc3-1" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="375" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dc3-2" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc3-2" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="420" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dc3-3" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dc3-3" value="🏢 Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="465" width="120" height="30" as="geometry" />
         </mxCell>
 
         <!-- Connections between AZs -->
-        <mxCell id="conn1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;curved=1;flowAnimation=1;" edge="1" parent="1">
+        <mxCell id="conn1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="420" as="sourcePoint" />
             <mxPoint x="400" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="conn2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;curved=1;flowAnimation=1;" edge="1" parent="1">
+        <mxCell id="conn2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;curved=1;flowAnimation=1;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="420" as="sourcePoint" />
             <mxPoint x="610" y="420" as="targetPoint" />
