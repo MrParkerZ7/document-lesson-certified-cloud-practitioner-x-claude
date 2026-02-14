@@ -4,41 +4,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
-        <!-- Title -->
-        <mxCell id="title" value="📊 AWS Analytics Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+        <mxCell id="title" value="AWS Analytics Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
         </mxCell>
-
-        <!-- Data Pipeline -->
         <mxCell id="pipeline-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="60" width="1000" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pipeline-title" value="📈 Analytics Data Pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+        <mxCell id="pipeline-title" value="Analytics Data Pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
           <mxGeometry x="440" y="65" width="200" height="25" as="geometry" />
         </mxCell>
-
-        <!-- Pipeline Flow -->
-        <mxCell id="sources" value="📥 Data&#xa;Sources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="sources" value="Data&#xa;Sources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="100" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ingest" value="🔄 Ingest&#xa;Kinesis/MSK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="ingest" value="Ingest&#xa;Kinesis/MSK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="100" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="store" value="💾 Store&#xa;S3 Data Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="store" value="Store&#xa;S3 Data Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="100" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="catalog" value="📋 Catalog&#xa;Glue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="catalog" value="Catalog&#xa;Glue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="100" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="query" value="🔍 Query&#xa;Athena/Redshift" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="query" value="Query&#xa;Athena/Redshift" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="100" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="visualize" value="📊 Visualize&#xa;QuickSight" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="visualize" value="Visualize&#xa;QuickSight" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="100" width="100" height="50" as="geometry" />
         </mxCell>
-
-        <!-- Pipeline Arrows -->
         <mxCell id="p-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="145" y="125" as="sourcePoint" />
@@ -69,15 +61,12 @@
             <mxPoint x="815" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- Query Services -->
         <mxCell id="query-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="200" width="500" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="query-title" value="🔍 Query & Warehouse Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+        <mxCell id="query-title" value="Query and Warehouse Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
           <mxGeometry x="180" y="205" width="220" height="25" as="geometry" />
         </mxCell>
-
         <mxCell id="athena" value="Athena&#xa;Serverless SQL&#xa;Query S3 directly" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="245" width="120" height="60" as="geometry" />
         </mxCell>
@@ -87,55 +76,46 @@
         <mxCell id="emr" value="EMR&#xa;Hadoop/Spark&#xa;Big Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-
         <mxCell id="query-note" value="Athena = Pay per query (serverless) | Redshift = Provisioned cluster | EMR = Process large datasets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="315" width="460" height="20" as="geometry" />
         </mxCell>
-
-        <!-- Real-time Services -->
         <mxCell id="realtime-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="200" width="480" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="realtime-title" value="⚡ Real-time & ETL Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+        <mxCell id="realtime-title" value="Real-time and ETL Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
           <mxGeometry x="700" y="205" width="200" height="25" as="geometry" />
         </mxCell>
-
         <mxCell id="kinesis" value="Kinesis&#xa;Real-time&#xa;Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="245" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kinesis-types" value="Data Streams | Firehose | Analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#DD3522;fontStyle=2;" vertex="1" parent="1">
           <mxGeometry x="570" y="310" width="120" height="20" as="geometry" />
         </mxCell>
-
         <mxCell id="glue" value="Glue&#xa;ETL Service&#xa;Data Catalog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="245" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="msk" value="MSK&#xa;Managed&#xa;Kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="245" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="opensearch" value="OpenSearch&#xa;Search &amp;&#xa;Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="opensearch" value="OpenSearch&#xa;Search and&#xa;Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="245" width="80" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Visualization -->
         <mxCell id="viz-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="360" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="viz-title" value="📊 QuickSight (BI & Visualization)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+        <mxCell id="viz-title" value="QuickSight (BI and Visualization)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
           <mxGeometry x="90" y="365" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="quicksight" value="📈 Dashboards&#xa;📊 Reports&#xa;📉 ML Insights" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+        <mxCell id="quicksight" value="Dashboards&#xa;Reports&#xa;ML Insights" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="395" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="qs-note" value="Serverless BI service&#xa;Pay per session&#xa;SPICE in-memory engine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
           <mxGeometry x="190" y="395" width="130" height="55" as="geometry" />
         </mxCell>
-
-        <!-- Key Points -->
         <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="680" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+        <mxCell id="key-title" value="Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
           <mxGeometry x="640" y="365" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="tips1" value="Athena = Serverless SQL on S3 (pay per query)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -156,7 +136,6 @@
         <mxCell id="tips6" value="EMR = Hadoop/Spark big data processing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="800" y="415" width="220" height="20" as="geometry" />
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
