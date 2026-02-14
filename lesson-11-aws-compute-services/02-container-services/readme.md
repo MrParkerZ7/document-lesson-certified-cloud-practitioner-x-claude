@@ -5,10 +5,10 @@
 ```
 lesson-11-aws-compute-services/
 └── 02-container-services/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

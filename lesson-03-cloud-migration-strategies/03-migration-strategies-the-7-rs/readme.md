@@ -5,10 +5,10 @@
 ```
 lesson-03-cloud-migration-strategies/
 └── 03-migration-strategies-the-7-rs/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Overview
 

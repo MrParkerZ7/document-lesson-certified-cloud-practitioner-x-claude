@@ -5,10 +5,10 @@
 ```
 lesson-07-aws-access-management/
 └── 03-principle-of-least-privilege/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

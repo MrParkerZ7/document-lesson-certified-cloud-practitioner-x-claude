@@ -5,10 +5,10 @@
 ```
 lesson-16-other-aws-services/
 └── 01-application-integration/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

@@ -5,10 +5,10 @@
 ```
 lesson-08-security-resources-and-components/
 └── 03-aws-security-information-resources/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

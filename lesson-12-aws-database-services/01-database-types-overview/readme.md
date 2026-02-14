@@ -5,10 +5,10 @@
 ```
 lesson-12-aws-database-services/
 └── 01-database-types-overview/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

@@ -5,10 +5,10 @@
 ```
 lesson-08-security-resources-and-components/
 └── 02-aws-marketplace-security-products/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

@@ -5,10 +5,10 @@
 ```
 lesson-07-aws-access-management/
 └── 07-cross-account-access/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

@@ -5,10 +5,10 @@
 ```
 lesson-14-aws-storage-services/
 └── 05-backup-and-recovery/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

@@ -5,10 +5,10 @@
 ```
 lesson-04-cloud-economics/
 └── 08-economies-of-scale/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Overview
 

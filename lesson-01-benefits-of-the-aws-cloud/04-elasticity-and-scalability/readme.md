@@ -5,10 +5,10 @@
 ```
 lesson-01-benefits-of-the-aws-cloud/
 └── 04-elasticity-and-scalability/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

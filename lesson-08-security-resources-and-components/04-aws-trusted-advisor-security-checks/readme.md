@@ -5,10 +5,10 @@
 ```
 lesson-08-security-resources-and-components/
 └── 04-aws-trusted-advisor-security-checks/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

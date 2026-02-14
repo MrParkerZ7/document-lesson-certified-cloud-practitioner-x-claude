@@ -5,10 +5,10 @@
 ```
 lesson-11-aws-compute-services/
 └── 01-amazon-ec2/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

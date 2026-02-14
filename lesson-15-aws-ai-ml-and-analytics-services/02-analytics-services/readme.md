@@ -5,10 +5,10 @@
 ```
 lesson-15-aws-ai-ml-and-analytics-services/
 └── 02-analytics-services/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

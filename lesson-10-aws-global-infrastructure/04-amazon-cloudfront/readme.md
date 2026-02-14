@@ -5,10 +5,10 @@
 ```
 lesson-10-aws-global-infrastructure/
 └── 04-amazon-cloudfront/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

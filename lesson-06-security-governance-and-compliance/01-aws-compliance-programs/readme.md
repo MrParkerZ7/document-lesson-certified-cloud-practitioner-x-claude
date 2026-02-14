@@ -5,10 +5,10 @@
 ```
 lesson-06-security-governance-and-compliance/
 └── 01-aws-compliance-programs/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

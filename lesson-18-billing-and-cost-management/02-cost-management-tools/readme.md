@@ -5,10 +5,10 @@
 ```
 lesson-18-billing-and-cost-management/
 └── 02-cost-management-tools/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

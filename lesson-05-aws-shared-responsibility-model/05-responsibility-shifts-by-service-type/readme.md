@@ -5,10 +5,10 @@
 ```
 lesson-05-aws-shared-responsibility-model/
 └── 05-responsibility-shifts-by-service-type/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Overview
 

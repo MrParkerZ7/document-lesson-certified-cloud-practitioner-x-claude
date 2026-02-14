@@ -5,10 +5,10 @@
 ```
 lesson-17-aws-pricing-models/
 └── 05-free-tier/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

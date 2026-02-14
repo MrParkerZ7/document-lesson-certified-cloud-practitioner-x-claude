@@ -5,10 +5,10 @@
 ```
 lesson-19-aws-support-and-resources/
 └── 07-aws-trust-and-safety-team/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

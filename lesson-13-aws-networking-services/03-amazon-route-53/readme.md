@@ -5,10 +5,10 @@
 ```
 lesson-13-aws-networking-services/
 └── 03-amazon-route-53/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

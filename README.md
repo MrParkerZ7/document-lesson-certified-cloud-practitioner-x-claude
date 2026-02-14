@@ -15,161 +15,191 @@ A comprehensive lesson plan for preparing for the AWS Certified Cloud Practition
 
 ## Project Structure
 
-```
-document-lesson-certified-cloud-practitioner-x-claude/
-├── README.md
-├── CLAUDE.md
-├── .gitignore
-├── lesson-01-benefits-of-the-aws-cloud/
-│   ├── 01-value-proposition-of-aws-cloud/
-│   │   ├── readme.md
-│   │   ├── diagram.drawio
-│   │   └── diagram.png
-│   ├── 02-benefits-of-global-infrastructure/
-│   │   ├── readme.md
-│   │   ├── diagram.drawio
-│   │   └── diagram.png
-│   ├── 03-high-availability/
-│   │   ├── readme.md
-│   │   ├── diagram.drawio
-│   │   └── diagram.png
-│   ├── 04-elasticity-and-scalability/
-│   │   ├── readme.md
-│   │   ├── diagram.drawio
-│   │   └── diagram.png
-│   └── 05-agility-and-flexibility/
-│       ├── readme.md
-│       ├── diagram.drawio
-│       └── diagram.png
-├── lesson-02-aws-well-architected-framework/
-│   ├── 01-introduction-to-well-architected-framework/
-│   ├── 02-operational-excellence-pillar/
-│   ├── 03-security-pillar/
-│   ├── 04-reliability-pillar/
-│   ├── 05-performance-efficiency-pillar/
-│   ├── 06-cost-optimization-pillar/
-│   ├── 07-sustainability-pillar/
-│   └── 08-differences-and-trade-offs-between-pillars/
-├── lesson-03-cloud-migration-strategies/
-│   ├── 01-aws-cloud-adoption-framework/
-│   ├── 02-benefits-of-migration/
-│   ├── 03-migration-strategies-the-7-rs/
-│   └── 04-migration-tools/
-├── lesson-04-cloud-economics/
-│   ├── 01-fixed-costs-vs-variable-costs/
-│   ├── 02-on-premises-vs-cloud-cost-comparison/
-│   ├── 03-capex-vs-opex/
-│   ├── 04-licensing-strategies/
-│   ├── 05-right-sizing-resources/
-│   ├── 06-benefits-of-automation/
-│   ├── 07-managed-services-value/
-│   └── 08-economies-of-scale/
-├── lesson-05-aws-shared-responsibility-model/
-│   ├── 01-understanding-the-shared-responsibility-model/
-│   ├── 02-aws-responsibilities/
-│   ├── 03-customer-responsibilities/
-│   ├── 04-shared-responsibilities/
-│   └── 05-responsibility-shifts-by-service-type/
-├── lesson-06-security-governance-and-compliance/
-│   ├── 01-aws-compliance-programs/
-│   ├── 02-aws-artifact/
-│   ├── 03-geographic-and-industry-compliance/
-│   ├── 04-encryption-options/
-│   ├── 05-security-services/
-│   └── 06-governance-and-auditing-services/
-├── lesson-07-aws-access-management/
-│   ├── 01-aws-iam-overview/
-│   ├── 02-root-user-account/
-│   ├── 03-principle-of-least-privilege/
-│   ├── 04-authentication-methods/
-│   ├── 05-aws-iam-identity-center/
-│   ├── 06-federated-identity-management/
-│   ├── 07-cross-account-access/
-│   └── 08-credential-management/
-├── lesson-08-security-resources-and-components/
-│   ├── 01-aws-security-services-overview/
-│   ├── 02-aws-marketplace-security-products/
-│   ├── 03-aws-security-information-resources/
-│   ├── 04-aws-trusted-advisor-security-checks/
-│   └── 05-aws-trust-and-safety-team/
-├── lesson-09-deploying-and-operating-in-aws/
-│   ├── 01-ways-to-access-aws-services/
-│   ├── 02-infrastructure-as-code/
-│   ├── 03-cloud-deployment-models/
-│   └── 04-one-time-vs-repeatable-processes/
-├── lesson-10-aws-global-infrastructure/
-│   ├── 01-aws-regions/
-│   ├── 02-availability-zones/
-│   ├── 03-edge-locations-and-points-of-presence/
-│   ├── 04-amazon-cloudfront/
-│   ├── 05-aws-local-zones/
-│   ├── 06-aws-wavelength/
-│   ├── 07-aws-outposts/
-│   └── 08-multi-region-strategies/
-├── lesson-11-aws-compute-services/
-│   ├── 01-amazon-ec2/
-│   ├── 02-container-services/
-│   ├── 03-serverless-computing/
-│   ├── 04-other-compute-services/
-│   ├── 05-auto-scaling/
-│   └── 06-elastic-load-balancing/
-├── lesson-12-aws-database-services/
-│   ├── 01-database-types-overview/
-│   ├── 02-relational-databases/
-│   ├── 03-nosql-databases/
-│   ├── 04-in-memory-databases/
-│   ├── 05-other-database-services/
-│   ├── 06-database-migration/
-│   └── 07-ec2-hosted-vs-aws-managed-databases/
-├── lesson-13-aws-networking-services/
-│   ├── 01-amazon-vpc/
-│   ├── 02-vpc-security/
-│   ├── 03-amazon-route-53/
-│   ├── 04-connectivity-options/
-│   └── 05-content-delivery/
-├── lesson-14-aws-storage-services/
-│   ├── 01-object-storage/
-│   ├── 02-block-storage/
-│   ├── 03-file-storage/
-│   ├── 04-hybrid-and-edge-storage/
-│   └── 05-backup-and-recovery/
-├── lesson-15-aws-ai-ml-and-analytics-services/
-│   ├── 01-ai-ml-services/
-│   └── 02-analytics-services/
-├── lesson-16-other-aws-services/
-│   ├── 01-application-integration/
-│   ├── 02-business-applications/
-│   ├── 03-developer-tools/
-│   ├── 04-end-user-computing/
-│   ├── 05-frontend-web-and-mobile/
-│   └── 06-iot-services/
-├── lesson-17-aws-pricing-models/
-│   ├── 01-compute-purchasing-options/
-│   ├── 02-reserved-instance-flexibility/
-│   ├── 03-storage-pricing/
-│   ├── 04-data-transfer-costs/
-│   └── 05-free-tier/
-├── lesson-18-billing-and-cost-management/
-│   ├── 01-aws-billing-dashboard/
-│   ├── 02-cost-management-tools/
-│   ├── 03-aws-pricing-calculator/
-│   ├── 04-aws-organizations/
-│   ├── 05-cost-allocation-tags/
-│   └── 06-aws-cost-anomaly-detection/
-└── lesson-19-aws-support-and-resources/
-    ├── 01-aws-support-plans/
-    ├── 02-aws-support-center/
-    ├── 03-aws-trusted-advisor/
-    ├── 04-aws-health-dashboard/
-    ├── 05-technical-resources/
-    ├── 06-aws-partner-network/
-    └── 07-aws-trust-and-safety-team/
+### Lesson 1: Benefits of the AWS Cloud
+| Topic | Files |
+|-------|-------|
+| [01 - Value Proposition of AWS Cloud](./lesson-01-benefits-of-the-aws-cloud/01-value-proposition-of-aws-cloud/readme.md) | [diagram.drawio](./lesson-01-benefits-of-the-aws-cloud/01-value-proposition-of-aws-cloud/diagram.drawio) \| [diagram.png](./lesson-01-benefits-of-the-aws-cloud/01-value-proposition-of-aws-cloud/diagram.png) |
+| [02 - Benefits of Global Infrastructure](./lesson-01-benefits-of-the-aws-cloud/02-benefits-of-global-infrastructure/readme.md) | [diagram.drawio](./lesson-01-benefits-of-the-aws-cloud/02-benefits-of-global-infrastructure/diagram.drawio) \| [diagram.png](./lesson-01-benefits-of-the-aws-cloud/02-benefits-of-global-infrastructure/diagram.png) |
+| [03 - High Availability](./lesson-01-benefits-of-the-aws-cloud/03-high-availability/readme.md) | [diagram.drawio](./lesson-01-benefits-of-the-aws-cloud/03-high-availability/diagram.drawio) \| [diagram.png](./lesson-01-benefits-of-the-aws-cloud/03-high-availability/diagram.png) |
+| [04 - Elasticity and Scalability](./lesson-01-benefits-of-the-aws-cloud/04-elasticity-and-scalability/readme.md) | [diagram.drawio](./lesson-01-benefits-of-the-aws-cloud/04-elasticity-and-scalability/diagram.drawio) \| [diagram.png](./lesson-01-benefits-of-the-aws-cloud/04-elasticity-and-scalability/diagram.png) |
+| [05 - Agility and Flexibility](./lesson-01-benefits-of-the-aws-cloud/05-agility-and-flexibility/readme.md) | [diagram.drawio](./lesson-01-benefits-of-the-aws-cloud/05-agility-and-flexibility/diagram.drawio) \| [diagram.png](./lesson-01-benefits-of-the-aws-cloud/05-agility-and-flexibility/diagram.png) |
 
-Each topic folder contains:
-├── readme.md      # Study content
-├── diagram.drawio # Editable diagram
-└── diagram.png    # Diagram image
-```
+### Lesson 2: AWS Well-Architected Framework
+| Topic | Files |
+|-------|-------|
+| [01 - Introduction to Well-Architected Framework](./lesson-02-aws-well-architected-framework/01-introduction-to-well-architected-framework/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/01-introduction-to-well-architected-framework/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/01-introduction-to-well-architected-framework/diagram.png) |
+| [02 - Operational Excellence Pillar](./lesson-02-aws-well-architected-framework/02-operational-excellence-pillar/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/02-operational-excellence-pillar/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/02-operational-excellence-pillar/diagram.png) |
+| [03 - Security Pillar](./lesson-02-aws-well-architected-framework/03-security-pillar/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/03-security-pillar/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/03-security-pillar/diagram.png) |
+| [04 - Reliability Pillar](./lesson-02-aws-well-architected-framework/04-reliability-pillar/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/04-reliability-pillar/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/04-reliability-pillar/diagram.png) |
+| [05 - Performance Efficiency Pillar](./lesson-02-aws-well-architected-framework/05-performance-efficiency-pillar/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/05-performance-efficiency-pillar/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/05-performance-efficiency-pillar/diagram.png) |
+| [06 - Cost Optimization Pillar](./lesson-02-aws-well-architected-framework/06-cost-optimization-pillar/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/06-cost-optimization-pillar/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/06-cost-optimization-pillar/diagram.png) |
+| [07 - Sustainability Pillar](./lesson-02-aws-well-architected-framework/07-sustainability-pillar/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/07-sustainability-pillar/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/07-sustainability-pillar/diagram.png) |
+| [08 - Differences and Trade-offs Between Pillars](./lesson-02-aws-well-architected-framework/08-differences-and-trade-offs-between-pillars/readme.md) | [diagram.drawio](./lesson-02-aws-well-architected-framework/08-differences-and-trade-offs-between-pillars/diagram.drawio) \| [diagram.png](./lesson-02-aws-well-architected-framework/08-differences-and-trade-offs-between-pillars/diagram.png) |
+
+### Lesson 3: Cloud Migration Strategies
+| Topic | Files |
+|-------|-------|
+| [01 - AWS Cloud Adoption Framework](./lesson-03-cloud-migration-strategies/01-aws-cloud-adoption-framework/readme.md) | [diagram.drawio](./lesson-03-cloud-migration-strategies/01-aws-cloud-adoption-framework/diagram.drawio) \| [diagram.png](./lesson-03-cloud-migration-strategies/01-aws-cloud-adoption-framework/diagram.png) |
+| [02 - Benefits of Migration](./lesson-03-cloud-migration-strategies/02-benefits-of-migration/readme.md) | [diagram.drawio](./lesson-03-cloud-migration-strategies/02-benefits-of-migration/diagram.drawio) \| [diagram.png](./lesson-03-cloud-migration-strategies/02-benefits-of-migration/diagram.png) |
+| [03 - Migration Strategies The 7 Rs](./lesson-03-cloud-migration-strategies/03-migration-strategies-the-7-rs/readme.md) | [diagram.drawio](./lesson-03-cloud-migration-strategies/03-migration-strategies-the-7-rs/diagram.drawio) \| [diagram.png](./lesson-03-cloud-migration-strategies/03-migration-strategies-the-7-rs/diagram.png) |
+| [04 - Migration Tools](./lesson-03-cloud-migration-strategies/04-migration-tools/readme.md) | [diagram.drawio](./lesson-03-cloud-migration-strategies/04-migration-tools/diagram.drawio) \| [diagram.png](./lesson-03-cloud-migration-strategies/04-migration-tools/diagram.png) |
+
+### Lesson 4: Cloud Economics
+| Topic | Files |
+|-------|-------|
+| [01 - Fixed Costs vs Variable Costs](./lesson-04-cloud-economics/01-fixed-costs-vs-variable-costs/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/01-fixed-costs-vs-variable-costs/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/01-fixed-costs-vs-variable-costs/diagram.png) |
+| [02 - On-Premises vs Cloud Cost Comparison](./lesson-04-cloud-economics/02-on-premises-vs-cloud-cost-comparison/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/02-on-premises-vs-cloud-cost-comparison/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/02-on-premises-vs-cloud-cost-comparison/diagram.png) |
+| [03 - CapEx vs OpEx](./lesson-04-cloud-economics/03-capex-vs-opex/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/03-capex-vs-opex/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/03-capex-vs-opex/diagram.png) |
+| [04 - Licensing Strategies](./lesson-04-cloud-economics/04-licensing-strategies/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/04-licensing-strategies/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/04-licensing-strategies/diagram.png) |
+| [05 - Right-sizing Resources](./lesson-04-cloud-economics/05-right-sizing-resources/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/05-right-sizing-resources/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/05-right-sizing-resources/diagram.png) |
+| [06 - Benefits of Automation](./lesson-04-cloud-economics/06-benefits-of-automation/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/06-benefits-of-automation/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/06-benefits-of-automation/diagram.png) |
+| [07 - Managed Services Value](./lesson-04-cloud-economics/07-managed-services-value/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/07-managed-services-value/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/07-managed-services-value/diagram.png) |
+| [08 - Economies of Scale](./lesson-04-cloud-economics/08-economies-of-scale/readme.md) | [diagram.drawio](./lesson-04-cloud-economics/08-economies-of-scale/diagram.drawio) \| [diagram.png](./lesson-04-cloud-economics/08-economies-of-scale/diagram.png) |
+
+### Lesson 5: AWS Shared Responsibility Model
+| Topic | Files |
+|-------|-------|
+| [01 - Understanding the Shared Responsibility Model](./lesson-05-aws-shared-responsibility-model/01-understanding-the-shared-responsibility-model/readme.md) | [diagram.drawio](./lesson-05-aws-shared-responsibility-model/01-understanding-the-shared-responsibility-model/diagram.drawio) \| [diagram.png](./lesson-05-aws-shared-responsibility-model/01-understanding-the-shared-responsibility-model/diagram.png) |
+| [02 - AWS Responsibilities](./lesson-05-aws-shared-responsibility-model/02-aws-responsibilities/readme.md) | [diagram.drawio](./lesson-05-aws-shared-responsibility-model/02-aws-responsibilities/diagram.drawio) \| [diagram.png](./lesson-05-aws-shared-responsibility-model/02-aws-responsibilities/diagram.png) |
+| [03 - Customer Responsibilities](./lesson-05-aws-shared-responsibility-model/03-customer-responsibilities/readme.md) | [diagram.drawio](./lesson-05-aws-shared-responsibility-model/03-customer-responsibilities/diagram.drawio) \| [diagram.png](./lesson-05-aws-shared-responsibility-model/03-customer-responsibilities/diagram.png) |
+| [04 - Shared Responsibilities](./lesson-05-aws-shared-responsibility-model/04-shared-responsibilities/readme.md) | [diagram.drawio](./lesson-05-aws-shared-responsibility-model/04-shared-responsibilities/diagram.drawio) \| [diagram.png](./lesson-05-aws-shared-responsibility-model/04-shared-responsibilities/diagram.png) |
+| [05 - Responsibility Shifts by Service Type](./lesson-05-aws-shared-responsibility-model/05-responsibility-shifts-by-service-type/readme.md) | [diagram.drawio](./lesson-05-aws-shared-responsibility-model/05-responsibility-shifts-by-service-type/diagram.drawio) \| [diagram.png](./lesson-05-aws-shared-responsibility-model/05-responsibility-shifts-by-service-type/diagram.png) |
+
+### Lesson 6: Security, Governance, and Compliance
+| Topic | Files |
+|-------|-------|
+| [01 - AWS Compliance Programs](./lesson-06-security-governance-and-compliance/01-aws-compliance-programs/readme.md) | [diagram.drawio](./lesson-06-security-governance-and-compliance/01-aws-compliance-programs/diagram.drawio) \| [diagram.png](./lesson-06-security-governance-and-compliance/01-aws-compliance-programs/diagram.png) |
+| [02 - AWS Artifact](./lesson-06-security-governance-and-compliance/02-aws-artifact/readme.md) | [diagram.drawio](./lesson-06-security-governance-and-compliance/02-aws-artifact/diagram.drawio) \| [diagram.png](./lesson-06-security-governance-and-compliance/02-aws-artifact/diagram.png) |
+| [03 - Geographic and Industry Compliance](./lesson-06-security-governance-and-compliance/03-geographic-and-industry-compliance/readme.md) | [diagram.drawio](./lesson-06-security-governance-and-compliance/03-geographic-and-industry-compliance/diagram.drawio) \| [diagram.png](./lesson-06-security-governance-and-compliance/03-geographic-and-industry-compliance/diagram.png) |
+| [04 - Encryption Options](./lesson-06-security-governance-and-compliance/04-encryption-options/readme.md) | [diagram.drawio](./lesson-06-security-governance-and-compliance/04-encryption-options/diagram.drawio) \| [diagram.png](./lesson-06-security-governance-and-compliance/04-encryption-options/diagram.png) |
+| [05 - Security Services](./lesson-06-security-governance-and-compliance/05-security-services/readme.md) | [diagram.drawio](./lesson-06-security-governance-and-compliance/05-security-services/diagram.drawio) \| [diagram.png](./lesson-06-security-governance-and-compliance/05-security-services/diagram.png) |
+| [06 - Governance and Auditing Services](./lesson-06-security-governance-and-compliance/06-governance-and-auditing-services/readme.md) | [diagram.drawio](./lesson-06-security-governance-and-compliance/06-governance-and-auditing-services/diagram.drawio) \| [diagram.png](./lesson-06-security-governance-and-compliance/06-governance-and-auditing-services/diagram.png) |
+
+### Lesson 7: AWS Access Management
+| Topic | Files |
+|-------|-------|
+| [01 - AWS IAM Overview](./lesson-07-aws-access-management/01-aws-iam-overview/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/01-aws-iam-overview/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/01-aws-iam-overview/diagram.png) |
+| [02 - Root User Account](./lesson-07-aws-access-management/02-root-user-account/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/02-root-user-account/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/02-root-user-account/diagram.png) |
+| [03 - Principle of Least Privilege](./lesson-07-aws-access-management/03-principle-of-least-privilege/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/03-principle-of-least-privilege/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/03-principle-of-least-privilege/diagram.png) |
+| [04 - Authentication Methods](./lesson-07-aws-access-management/04-authentication-methods/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/04-authentication-methods/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/04-authentication-methods/diagram.png) |
+| [05 - AWS IAM Identity Center](./lesson-07-aws-access-management/05-aws-iam-identity-center/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/05-aws-iam-identity-center/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/05-aws-iam-identity-center/diagram.png) |
+| [06 - Federated Identity Management](./lesson-07-aws-access-management/06-federated-identity-management/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/06-federated-identity-management/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/06-federated-identity-management/diagram.png) |
+| [07 - Cross-Account Access](./lesson-07-aws-access-management/07-cross-account-access/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/07-cross-account-access/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/07-cross-account-access/diagram.png) |
+| [08 - Credential Management](./lesson-07-aws-access-management/08-credential-management/readme.md) | [diagram.drawio](./lesson-07-aws-access-management/08-credential-management/diagram.drawio) \| [diagram.png](./lesson-07-aws-access-management/08-credential-management/diagram.png) |
+
+### Lesson 8: Security Resources and Components
+| Topic | Files |
+|-------|-------|
+| [01 - AWS Security Services Overview](./lesson-08-security-resources-and-components/01-aws-security-services-overview/readme.md) | [diagram.drawio](./lesson-08-security-resources-and-components/01-aws-security-services-overview/diagram.drawio) \| [diagram.png](./lesson-08-security-resources-and-components/01-aws-security-services-overview/diagram.png) |
+| [02 - AWS Marketplace Security Products](./lesson-08-security-resources-and-components/02-aws-marketplace-security-products/readme.md) | [diagram.drawio](./lesson-08-security-resources-and-components/02-aws-marketplace-security-products/diagram.drawio) \| [diagram.png](./lesson-08-security-resources-and-components/02-aws-marketplace-security-products/diagram.png) |
+| [03 - AWS Security Information Resources](./lesson-08-security-resources-and-components/03-aws-security-information-resources/readme.md) | [diagram.drawio](./lesson-08-security-resources-and-components/03-aws-security-information-resources/diagram.drawio) \| [diagram.png](./lesson-08-security-resources-and-components/03-aws-security-information-resources/diagram.png) |
+| [04 - AWS Trusted Advisor Security Checks](./lesson-08-security-resources-and-components/04-aws-trusted-advisor-security-checks/readme.md) | [diagram.drawio](./lesson-08-security-resources-and-components/04-aws-trusted-advisor-security-checks/diagram.drawio) \| [diagram.png](./lesson-08-security-resources-and-components/04-aws-trusted-advisor-security-checks/diagram.png) |
+| [05 - AWS Trust and Safety Team](./lesson-08-security-resources-and-components/05-aws-trust-and-safety-team/readme.md) | [diagram.drawio](./lesson-08-security-resources-and-components/05-aws-trust-and-safety-team/diagram.drawio) \| [diagram.png](./lesson-08-security-resources-and-components/05-aws-trust-and-safety-team/diagram.png) |
+
+### Lesson 9: Deploying and Operating in AWS
+| Topic | Files |
+|-------|-------|
+| [01 - Ways to Access AWS Services](./lesson-09-deploying-and-operating-in-aws/01-ways-to-access-aws-services/readme.md) | [diagram.drawio](./lesson-09-deploying-and-operating-in-aws/01-ways-to-access-aws-services/diagram.drawio) \| [diagram.png](./lesson-09-deploying-and-operating-in-aws/01-ways-to-access-aws-services/diagram.png) |
+| [02 - Infrastructure as Code](./lesson-09-deploying-and-operating-in-aws/02-infrastructure-as-code/readme.md) | [diagram.drawio](./lesson-09-deploying-and-operating-in-aws/02-infrastructure-as-code/diagram.drawio) \| [diagram.png](./lesson-09-deploying-and-operating-in-aws/02-infrastructure-as-code/diagram.png) |
+| [03 - Cloud Deployment Models](./lesson-09-deploying-and-operating-in-aws/03-cloud-deployment-models/readme.md) | [diagram.drawio](./lesson-09-deploying-and-operating-in-aws/03-cloud-deployment-models/diagram.drawio) \| [diagram.png](./lesson-09-deploying-and-operating-in-aws/03-cloud-deployment-models/diagram.png) |
+| [04 - One-Time vs Repeatable Processes](./lesson-09-deploying-and-operating-in-aws/04-one-time-vs-repeatable-processes/readme.md) | [diagram.drawio](./lesson-09-deploying-and-operating-in-aws/04-one-time-vs-repeatable-processes/diagram.drawio) \| [diagram.png](./lesson-09-deploying-and-operating-in-aws/04-one-time-vs-repeatable-processes/diagram.png) |
+
+### Lesson 10: AWS Global Infrastructure
+| Topic | Files |
+|-------|-------|
+| [01 - AWS Regions](./lesson-10-aws-global-infrastructure/01-aws-regions/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/01-aws-regions/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/01-aws-regions/diagram.png) |
+| [02 - Availability Zones](./lesson-10-aws-global-infrastructure/02-availability-zones/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/02-availability-zones/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/02-availability-zones/diagram.png) |
+| [03 - Edge Locations and Points of Presence](./lesson-10-aws-global-infrastructure/03-edge-locations-and-points-of-presence/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/03-edge-locations-and-points-of-presence/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/03-edge-locations-and-points-of-presence/diagram.png) |
+| [04 - Amazon CloudFront](./lesson-10-aws-global-infrastructure/04-amazon-cloudfront/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/04-amazon-cloudfront/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/04-amazon-cloudfront/diagram.png) |
+| [05 - AWS Local Zones](./lesson-10-aws-global-infrastructure/05-aws-local-zones/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/05-aws-local-zones/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/05-aws-local-zones/diagram.png) |
+| [06 - AWS Wavelength](./lesson-10-aws-global-infrastructure/06-aws-wavelength/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/06-aws-wavelength/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/06-aws-wavelength/diagram.png) |
+| [07 - AWS Outposts](./lesson-10-aws-global-infrastructure/07-aws-outposts/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/07-aws-outposts/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/07-aws-outposts/diagram.png) |
+| [08 - Multi-Region Strategies](./lesson-10-aws-global-infrastructure/08-multi-region-strategies/readme.md) | [diagram.drawio](./lesson-10-aws-global-infrastructure/08-multi-region-strategies/diagram.drawio) \| [diagram.png](./lesson-10-aws-global-infrastructure/08-multi-region-strategies/diagram.png) |
+
+### Lesson 11: AWS Compute Services
+| Topic | Files |
+|-------|-------|
+| [01 - Amazon EC2](./lesson-11-aws-compute-services/01-amazon-ec2/readme.md) | [diagram.drawio](./lesson-11-aws-compute-services/01-amazon-ec2/diagram.drawio) \| [diagram.png](./lesson-11-aws-compute-services/01-amazon-ec2/diagram.png) |
+| [02 - Container Services](./lesson-11-aws-compute-services/02-container-services/readme.md) | [diagram.drawio](./lesson-11-aws-compute-services/02-container-services/diagram.drawio) \| [diagram.png](./lesson-11-aws-compute-services/02-container-services/diagram.png) |
+| [03 - Serverless Computing](./lesson-11-aws-compute-services/03-serverless-computing/readme.md) | [diagram.drawio](./lesson-11-aws-compute-services/03-serverless-computing/diagram.drawio) \| [diagram.png](./lesson-11-aws-compute-services/03-serverless-computing/diagram.png) |
+| [04 - Other Compute Services](./lesson-11-aws-compute-services/04-other-compute-services/readme.md) | [diagram.drawio](./lesson-11-aws-compute-services/04-other-compute-services/diagram.drawio) \| [diagram.png](./lesson-11-aws-compute-services/04-other-compute-services/diagram.png) |
+| [05 - Auto Scaling](./lesson-11-aws-compute-services/05-auto-scaling/readme.md) | [diagram.drawio](./lesson-11-aws-compute-services/05-auto-scaling/diagram.drawio) \| [diagram.png](./lesson-11-aws-compute-services/05-auto-scaling/diagram.png) |
+| [06 - Elastic Load Balancing](./lesson-11-aws-compute-services/06-elastic-load-balancing/readme.md) | [diagram.drawio](./lesson-11-aws-compute-services/06-elastic-load-balancing/diagram.drawio) \| [diagram.png](./lesson-11-aws-compute-services/06-elastic-load-balancing/diagram.png) |
+
+### Lesson 12: AWS Database Services
+| Topic | Files |
+|-------|-------|
+| [01 - Database Types Overview](./lesson-12-aws-database-services/01-database-types-overview/readme.md) | [diagram.drawio](./lesson-12-aws-database-services/01-database-types-overview/diagram.drawio) \| [diagram.png](./lesson-12-aws-database-services/01-database-types-overview/diagram.png) |
+| [02 - Relational Databases](./lesson-12-aws-database-services/02-relational-databases/readme.md) | [diagram.drawio](./lesson-12-aws-database-services/02-relational-databases/diagram.drawio) \| [diagram.png](./lesson-12-aws-database-services/02-relational-databases/diagram.png) |
+| [03 - NoSQL Databases](./lesson-12-aws-database-services/03-nosql-databases/readme.md) | [diagram.drawio](./lesson-12-aws-database-services/03-nosql-databases/diagram.drawio) \| [diagram.png](./lesson-12-aws-database-services/03-nosql-databases/diagram.png) |
+| [04 - In-Memory Databases](./lesson-12-aws-database-services/04-in-memory-databases/readme.md) | [diagram.drawio](./lesson-12-aws-database-services/04-in-memory-databases/diagram.drawio) \| [diagram.png](./lesson-12-aws-database-services/04-in-memory-databases/diagram.png) |
+| [05 - Other Database Services](./lesson-12-aws-database-services/05-other-database-services/readme.md) | [diagram.drawio](./lesson-12-aws-database-services/05-other-database-services/diagram.drawio) \| [diagram.png](./lesson-12-aws-database-services/05-other-database-services/diagram.png) |
+| [06 - Database Migration](./lesson-12-aws-database-services/06-database-migration/readme.md) | [diagram.drawio](./lesson-12-aws-database-services/06-database-migration/diagram.drawio) \| [diagram.png](./lesson-12-aws-database-services/06-database-migration/diagram.png) |
+| [07 - EC2-Hosted vs AWS Managed Databases](./lesson-12-aws-database-services/07-ec2-hosted-vs-aws-managed-databases/readme.md) | [diagram.drawio](./lesson-12-aws-database-services/07-ec2-hosted-vs-aws-managed-databases/diagram.drawio) \| [diagram.png](./lesson-12-aws-database-services/07-ec2-hosted-vs-aws-managed-databases/diagram.png) |
+
+### Lesson 13: AWS Networking Services
+| Topic | Files |
+|-------|-------|
+| [01 - Amazon VPC](./lesson-13-aws-networking-services/01-amazon-vpc/readme.md) | [diagram.drawio](./lesson-13-aws-networking-services/01-amazon-vpc/diagram.drawio) \| [diagram.png](./lesson-13-aws-networking-services/01-amazon-vpc/diagram.png) |
+| [02 - VPC Security](./lesson-13-aws-networking-services/02-vpc-security/readme.md) | [diagram.drawio](./lesson-13-aws-networking-services/02-vpc-security/diagram.drawio) \| [diagram.png](./lesson-13-aws-networking-services/02-vpc-security/diagram.png) |
+| [03 - Amazon Route 53](./lesson-13-aws-networking-services/03-amazon-route-53/readme.md) | [diagram.drawio](./lesson-13-aws-networking-services/03-amazon-route-53/diagram.drawio) \| [diagram.png](./lesson-13-aws-networking-services/03-amazon-route-53/diagram.png) |
+| [04 - Connectivity Options](./lesson-13-aws-networking-services/04-connectivity-options/readme.md) | [diagram.drawio](./lesson-13-aws-networking-services/04-connectivity-options/diagram.drawio) \| [diagram.png](./lesson-13-aws-networking-services/04-connectivity-options/diagram.png) |
+| [05 - Content Delivery](./lesson-13-aws-networking-services/05-content-delivery/readme.md) | [diagram.drawio](./lesson-13-aws-networking-services/05-content-delivery/diagram.drawio) \| [diagram.png](./lesson-13-aws-networking-services/05-content-delivery/diagram.png) |
+
+### Lesson 14: AWS Storage Services
+| Topic | Files |
+|-------|-------|
+| [01 - Object Storage](./lesson-14-aws-storage-services/01-object-storage/readme.md) | [diagram.drawio](./lesson-14-aws-storage-services/01-object-storage/diagram.drawio) \| [diagram.png](./lesson-14-aws-storage-services/01-object-storage/diagram.png) |
+| [02 - Block Storage](./lesson-14-aws-storage-services/02-block-storage/readme.md) | [diagram.drawio](./lesson-14-aws-storage-services/02-block-storage/diagram.drawio) \| [diagram.png](./lesson-14-aws-storage-services/02-block-storage/diagram.png) |
+| [03 - File Storage](./lesson-14-aws-storage-services/03-file-storage/readme.md) | [diagram.drawio](./lesson-14-aws-storage-services/03-file-storage/diagram.drawio) \| [diagram.png](./lesson-14-aws-storage-services/03-file-storage/diagram.png) |
+| [04 - Hybrid and Edge Storage](./lesson-14-aws-storage-services/04-hybrid-and-edge-storage/readme.md) | [diagram.drawio](./lesson-14-aws-storage-services/04-hybrid-and-edge-storage/diagram.drawio) \| [diagram.png](./lesson-14-aws-storage-services/04-hybrid-and-edge-storage/diagram.png) |
+| [05 - Backup and Recovery](./lesson-14-aws-storage-services/05-backup-and-recovery/readme.md) | [diagram.drawio](./lesson-14-aws-storage-services/05-backup-and-recovery/diagram.drawio) \| [diagram.png](./lesson-14-aws-storage-services/05-backup-and-recovery/diagram.png) |
+
+### Lesson 15: AWS AI/ML and Analytics Services
+| Topic | Files |
+|-------|-------|
+| [01 - AI/ML Services](./lesson-15-aws-ai-ml-and-analytics-services/01-ai-ml-services/readme.md) | [diagram.drawio](./lesson-15-aws-ai-ml-and-analytics-services/01-ai-ml-services/diagram.drawio) \| [diagram.png](./lesson-15-aws-ai-ml-and-analytics-services/01-ai-ml-services/diagram.png) |
+| [02 - Analytics Services](./lesson-15-aws-ai-ml-and-analytics-services/02-analytics-services/readme.md) | [diagram.drawio](./lesson-15-aws-ai-ml-and-analytics-services/02-analytics-services/diagram.drawio) \| [diagram.png](./lesson-15-aws-ai-ml-and-analytics-services/02-analytics-services/diagram.png) |
+
+### Lesson 16: Other AWS Services
+| Topic | Files |
+|-------|-------|
+| [01 - Application Integration](./lesson-16-other-aws-services/01-application-integration/readme.md) | [diagram.drawio](./lesson-16-other-aws-services/01-application-integration/diagram.drawio) \| [diagram.png](./lesson-16-other-aws-services/01-application-integration/diagram.png) |
+| [02 - Business Applications](./lesson-16-other-aws-services/02-business-applications/readme.md) | [diagram.drawio](./lesson-16-other-aws-services/02-business-applications/diagram.drawio) \| [diagram.png](./lesson-16-other-aws-services/02-business-applications/diagram.png) |
+| [03 - Developer Tools](./lesson-16-other-aws-services/03-developer-tools/readme.md) | [diagram.drawio](./lesson-16-other-aws-services/03-developer-tools/diagram.drawio) \| [diagram.png](./lesson-16-other-aws-services/03-developer-tools/diagram.png) |
+| [04 - End-User Computing](./lesson-16-other-aws-services/04-end-user-computing/readme.md) | [diagram.drawio](./lesson-16-other-aws-services/04-end-user-computing/diagram.drawio) \| [diagram.png](./lesson-16-other-aws-services/04-end-user-computing/diagram.png) |
+| [05 - Frontend Web and Mobile](./lesson-16-other-aws-services/05-frontend-web-and-mobile/readme.md) | [diagram.drawio](./lesson-16-other-aws-services/05-frontend-web-and-mobile/diagram.drawio) \| [diagram.png](./lesson-16-other-aws-services/05-frontend-web-and-mobile/diagram.png) |
+| [06 - IoT Services](./lesson-16-other-aws-services/06-iot-services/readme.md) | [diagram.drawio](./lesson-16-other-aws-services/06-iot-services/diagram.drawio) \| [diagram.png](./lesson-16-other-aws-services/06-iot-services/diagram.png) |
+
+### Lesson 17: AWS Pricing Models
+| Topic | Files |
+|-------|-------|
+| [01 - Compute Purchasing Options](./lesson-17-aws-pricing-models/01-compute-purchasing-options/readme.md) | [diagram.drawio](./lesson-17-aws-pricing-models/01-compute-purchasing-options/diagram.drawio) \| [diagram.png](./lesson-17-aws-pricing-models/01-compute-purchasing-options/diagram.png) |
+| [02 - Reserved Instance Flexibility](./lesson-17-aws-pricing-models/02-reserved-instance-flexibility/readme.md) | [diagram.drawio](./lesson-17-aws-pricing-models/02-reserved-instance-flexibility/diagram.drawio) \| [diagram.png](./lesson-17-aws-pricing-models/02-reserved-instance-flexibility/diagram.png) |
+| [03 - Storage Pricing](./lesson-17-aws-pricing-models/03-storage-pricing/readme.md) | [diagram.drawio](./lesson-17-aws-pricing-models/03-storage-pricing/diagram.drawio) \| [diagram.png](./lesson-17-aws-pricing-models/03-storage-pricing/diagram.png) |
+| [04 - Data Transfer Costs](./lesson-17-aws-pricing-models/04-data-transfer-costs/readme.md) | [diagram.drawio](./lesson-17-aws-pricing-models/04-data-transfer-costs/diagram.drawio) \| [diagram.png](./lesson-17-aws-pricing-models/04-data-transfer-costs/diagram.png) |
+| [05 - Free Tier](./lesson-17-aws-pricing-models/05-free-tier/readme.md) | [diagram.drawio](./lesson-17-aws-pricing-models/05-free-tier/diagram.drawio) \| [diagram.png](./lesson-17-aws-pricing-models/05-free-tier/diagram.png) |
+
+### Lesson 18: Billing and Cost Management
+| Topic | Files |
+|-------|-------|
+| [01 - AWS Billing Dashboard](./lesson-18-billing-and-cost-management/01-aws-billing-dashboard/readme.md) | [diagram.drawio](./lesson-18-billing-and-cost-management/01-aws-billing-dashboard/diagram.drawio) \| [diagram.png](./lesson-18-billing-and-cost-management/01-aws-billing-dashboard/diagram.png) |
+| [02 - Cost Management Tools](./lesson-18-billing-and-cost-management/02-cost-management-tools/readme.md) | [diagram.drawio](./lesson-18-billing-and-cost-management/02-cost-management-tools/diagram.drawio) \| [diagram.png](./lesson-18-billing-and-cost-management/02-cost-management-tools/diagram.png) |
+| [03 - AWS Pricing Calculator](./lesson-18-billing-and-cost-management/03-aws-pricing-calculator/readme.md) | [diagram.drawio](./lesson-18-billing-and-cost-management/03-aws-pricing-calculator/diagram.drawio) \| [diagram.png](./lesson-18-billing-and-cost-management/03-aws-pricing-calculator/diagram.png) |
+| [04 - AWS Organizations](./lesson-18-billing-and-cost-management/04-aws-organizations/readme.md) | [diagram.drawio](./lesson-18-billing-and-cost-management/04-aws-organizations/diagram.drawio) \| [diagram.png](./lesson-18-billing-and-cost-management/04-aws-organizations/diagram.png) |
+| [05 - Cost Allocation Tags](./lesson-18-billing-and-cost-management/05-cost-allocation-tags/readme.md) | [diagram.drawio](./lesson-18-billing-and-cost-management/05-cost-allocation-tags/diagram.drawio) \| [diagram.png](./lesson-18-billing-and-cost-management/05-cost-allocation-tags/diagram.png) |
+| [06 - AWS Cost Anomaly Detection](./lesson-18-billing-and-cost-management/06-aws-cost-anomaly-detection/readme.md) | [diagram.drawio](./lesson-18-billing-and-cost-management/06-aws-cost-anomaly-detection/diagram.drawio) \| [diagram.png](./lesson-18-billing-and-cost-management/06-aws-cost-anomaly-detection/diagram.png) |
+
+### Lesson 19: AWS Support and Resources
+| Topic | Files |
+|-------|-------|
+| [01 - AWS Support Plans](./lesson-19-aws-support-and-resources/01-aws-support-plans/readme.md) | [diagram.drawio](./lesson-19-aws-support-and-resources/01-aws-support-plans/diagram.drawio) \| [diagram.png](./lesson-19-aws-support-and-resources/01-aws-support-plans/diagram.png) |
+| [02 - AWS Support Center](./lesson-19-aws-support-and-resources/02-aws-support-center/readme.md) | [diagram.drawio](./lesson-19-aws-support-and-resources/02-aws-support-center/diagram.drawio) \| [diagram.png](./lesson-19-aws-support-and-resources/02-aws-support-center/diagram.png) |
+| [03 - AWS Trusted Advisor](./lesson-19-aws-support-and-resources/03-aws-trusted-advisor/readme.md) | [diagram.drawio](./lesson-19-aws-support-and-resources/03-aws-trusted-advisor/diagram.drawio) \| [diagram.png](./lesson-19-aws-support-and-resources/03-aws-trusted-advisor/diagram.png) |
+| [04 - AWS Health Dashboard](./lesson-19-aws-support-and-resources/04-aws-health-dashboard/readme.md) | [diagram.drawio](./lesson-19-aws-support-and-resources/04-aws-health-dashboard/diagram.drawio) \| [diagram.png](./lesson-19-aws-support-and-resources/04-aws-health-dashboard/diagram.png) |
+| [05 - Technical Resources](./lesson-19-aws-support-and-resources/05-technical-resources/readme.md) | [diagram.drawio](./lesson-19-aws-support-and-resources/05-technical-resources/diagram.drawio) \| [diagram.png](./lesson-19-aws-support-and-resources/05-technical-resources/diagram.png) |
+| [06 - AWS Partner Network](./lesson-19-aws-support-and-resources/06-aws-partner-network/readme.md) | [diagram.drawio](./lesson-19-aws-support-and-resources/06-aws-partner-network/diagram.drawio) \| [diagram.png](./lesson-19-aws-support-and-resources/06-aws-partner-network/diagram.png) |
+| [07 - AWS Trust and Safety Team](./lesson-19-aws-support-and-resources/07-aws-trust-and-safety-team/readme.md) | [diagram.drawio](./lesson-19-aws-support-and-resources/07-aws-trust-and-safety-team/diagram.drawio) \| [diagram.png](./lesson-19-aws-support-and-resources/07-aws-trust-and-safety-team/diagram.png) |
 
 ---
 

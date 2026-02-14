@@ -5,10 +5,10 @@
 ```
 lesson-19-aws-support-and-resources/
 └── 01-aws-support-plans/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

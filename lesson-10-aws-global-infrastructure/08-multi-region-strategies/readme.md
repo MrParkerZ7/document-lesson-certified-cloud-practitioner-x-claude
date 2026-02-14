@@ -5,10 +5,10 @@
 ```
 lesson-10-aws-global-infrastructure/
 └── 08-multi-region-strategies/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

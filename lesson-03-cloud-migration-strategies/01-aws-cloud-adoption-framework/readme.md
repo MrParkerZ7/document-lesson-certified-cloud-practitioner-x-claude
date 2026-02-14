@@ -5,10 +5,10 @@
 ```
 lesson-03-cloud-migration-strategies/
 └── 01-aws-cloud-adoption-framework/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Overview
 

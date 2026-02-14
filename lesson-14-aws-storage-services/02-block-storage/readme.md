@@ -5,10 +5,10 @@
 ```
 lesson-14-aws-storage-services/
 └── 02-block-storage/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

@@ -5,10 +5,10 @@
 ```
 lesson-09-deploying-and-operating-in-aws/
 └── 04-one-time-vs-repeatable-processes/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

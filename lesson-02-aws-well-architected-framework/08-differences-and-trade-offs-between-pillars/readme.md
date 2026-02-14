@@ -5,10 +5,10 @@
 ```
 lesson-02-aws-well-architected-framework/
 └── 08-differences-and-trade-offs-between-pillars/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Overview
 

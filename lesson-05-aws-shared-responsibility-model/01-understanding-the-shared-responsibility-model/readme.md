@@ -5,10 +5,10 @@
 ```
 lesson-05-aws-shared-responsibility-model/
 └── 01-understanding-the-shared-responsibility-model/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Overview
 

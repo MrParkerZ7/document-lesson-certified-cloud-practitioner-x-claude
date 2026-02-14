@@ -5,10 +5,10 @@
 ```
 lesson-18-billing-and-cost-management/
 └── 06-aws-cost-anomaly-detection/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

@@ -5,10 +5,10 @@
 ```
 lesson-02-aws-well-architected-framework/
 └── 06-cost-optimization-pillar/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Overview
 

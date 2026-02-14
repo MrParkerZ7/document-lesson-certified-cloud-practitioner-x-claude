@@ -5,10 +5,10 @@
 ```
 lesson-10-aws-global-infrastructure/
 └── 02-availability-zones/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 

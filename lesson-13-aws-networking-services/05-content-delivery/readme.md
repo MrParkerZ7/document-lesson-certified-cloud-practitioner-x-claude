@@ -5,10 +5,10 @@
 ```
 lesson-13-aws-networking-services/
 └── 05-content-delivery/
-    ├── readme.md
-    ├── diagram.drawio
-    └── diagram.png
 ```
+- [readme.md](./readme.md)
+- [diagram.drawio](./diagram.drawio)
+- [diagram.png](./diagram.png)
 
 ## Introduction
 
